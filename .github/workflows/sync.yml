@@ -43,5 +43,10 @@ jobs:
           else
             git add data/content.json
             git commit -m "chore: refresh course content [skip ci]"
-            git push
+            for i in 1 2 3; do
+              if git push; then exit 0; fi
+              echo "Push rejected, rebasing and retrying ($i/3)..."
+              git pull --rebase --autostash origin main
+            done
+            echo "Could not push after 3 attempts."; exit 1
           fi
