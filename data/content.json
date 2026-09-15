@@ -7,48 +7,120 @@
     "term": "Semester 1",
     "announcement": ""
   },
-  "generatedAt": "2026-09-15T15:32:50.793Z",
+  "generatedAt": "2026-09-15T15:35:17.353Z",
   "sourceBin": "6aa953c7ac6210605ad0a374",
   "topicCount": 2,
-  "failures": 2,
+  "failures": 0,
   "topics": [
     {
       "id": "storage",
       "url": "https://enoete.github.io/compsciu1_1/",
-      "title": "storage",
-      "blurb": "",
+      "title": "Storage Devices & Media",
+      "blurb": "Where a computer keeps things, how fast it can get them back, and why that one trade-off shapes every machine you will ever use.",
       "number": 1,
       "status": "live",
-      "tags": [],
+      "tags": [
+        "RAM",
+        "ROM",
+        "EPROM",
+        "EEPROM",
+        "Cache",
+        "Registers",
+        "Hierarchy",
+        "Access methods",
+        "Units",
+        "Computer types"
+      ],
       "accent": "#1FA98F",
       "icon": "▤",
       "meta": {
+        "title": "Storage Devices & Media",
+        "description": "Where a computer keeps things, how fast it can get them back, and why that one trade-off shapes every machine you will ever use.",
+        "image": "",
+        "siteName": "CS Unit 1 · CFBC",
+        "themeColor": "#118D77",
         "duration": "55 min",
         "difficulty": "Foundation",
         "objectives": "6",
         "questions": "25",
-        "sections": "8"
+        "topics": [
+          "RAM",
+          "ROM",
+          "EPROM",
+          "EEPROM",
+          "Cache",
+          "Registers",
+          "Hierarchy",
+          "Access methods",
+          "Units",
+          "Computer types"
+        ],
+        "activities": [
+          "Latency scale",
+          "Volatility sort",
+          "Hierarchy explorer",
+          "Seek race",
+          "Capacity calculator",
+          "Device sort",
+          "Unit test"
+        ],
+        "sections": 8,
+        "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-15T15:32:50.696Z"
+      "fetchedAt": "2026-09-15T15:35:17.266Z"
     },
     {
       "id": "logic-gates",
       "url": "https://enoete.github.io/compsciu1_2/",
-      "title": "logic-gates",
-      "blurb": "",
+      "title": "Logic Gates & Truth Tables",
+      "blurb": "The five-step drill for turning any truth table into a working circuit — and back again. Foundation for everything that follows.",
       "number": 2,
       "status": "live",
-      "tags": [],
+      "tags": [
+        "AND",
+        "OR",
+        "NOT",
+        "NAND",
+        "NOR",
+        "XOR",
+        "XNOR",
+        "Combinational circuits",
+        "Sum of products"
+      ],
       "accent": "#E04B2F",
       "icon": "⎇",
       "meta": {
+        "title": "Logic Gates & Truth Tables",
+        "description": "The five-step drill for turning any truth table into a working circuit — and back again. Foundation for everything that follows.",
+        "image": "",
+        "siteName": "CS Unit 1 · CFBC",
+        "themeColor": "#E04B2F",
         "duration": "75 min",
         "difficulty": "Core",
         "objectives": "7",
         "questions": "30",
-        "sections": "9"
+        "topics": [
+          "AND",
+          "OR",
+          "NOT",
+          "NAND",
+          "NOR",
+          "XOR",
+          "XNOR",
+          "Combinational circuits",
+          "Sum of products"
+        ],
+        "activities": [
+          "Gate bench",
+          "Truth table dojo",
+          "Circuit builder",
+          "Spot the bug",
+          "Unit test"
+        ],
+        "sections": 9,
+        "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-15T15:32:50.793Z"
+      "fetchedAt": "2026-09-15T15:35:17.353Z"
     }
   ]
 }
