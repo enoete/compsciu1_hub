@@ -132,18 +132,31 @@ a.card:hover{transform:translateY(-2px); box-shadow:0 1px 0 rgba(22,32,44,.06), 
 }
 
 
-/* ---------- resources ---------- */
-.res{display:grid; grid-template-columns:repeat(auto-fill,minmax(258px,1fr)); gap:14px}
-.rcard{
-  display:block; text-decoration:none; background:var(--board); border:1px solid var(--line);
-  border-top:3px solid var(--accent,var(--violet)); border-radius:12px; padding:17px; box-shadow:var(--shadow);
-  transition:transform .14s ease, box-shadow .14s ease;
+/* ---------- sticky resources bar ---------- */
+.resbar{
+  position:sticky; top:0; z-index:60;
+  background:var(--board); border-bottom:1px solid var(--line);
+  box-shadow:0 1px 0 rgba(22,32,44,.06);
 }
-.rcard:hover{transform:translateY(-2px); box-shadow:0 1px 0 rgba(22,32,44,.06), 0 18px 34px -18px rgba(22,32,44,.55)}
-.rcard .kind{font-size:.72rem; font-weight:600; color:var(--accent,var(--violet)); letter-spacing:.01em}
-.rcard h3{font-size:1.06rem; margin:5px 0 6px}
-.rcard p{margin:0; color:var(--ink2); font-size:.92rem}
-.rcard .host{display:block; margin-top:11px; font-family:"JetBrains Mono",monospace; font-size:.74rem; color:var(--ink3)}
+.resbar-in{display:flex; align-items:center; gap:12px; padding:10px 22px}
+.resbar-label{
+  flex:0 0 auto; font-family:"Space Grotesk",sans-serif; font-weight:700; font-size:.8rem;
+  color:var(--ink2); white-space:nowrap;
+}
+.resbar-scroll{
+  display:flex; gap:8px; overflow-x:auto; scrollbar-width:thin;
+  -webkit-overflow-scrolling:touch; padding:2px 2px 4px; scroll-padding-left:2px;
+}
+.resbar-scroll::-webkit-scrollbar{height:5px}
+.resbar-scroll::-webkit-scrollbar-thumb{background:var(--line); border-radius:3px}
+.rchip{
+  flex:0 0 auto; display:flex; align-items:baseline; gap:7px; text-decoration:none;
+  background:var(--paper); border:1px solid var(--line); border-radius:999px;
+  padding:7px 13px; font-size:.85rem; font-weight:500; color:var(--ink); white-space:nowrap;
+  border-left:3px solid var(--accent,var(--violet)); transition:background .12s ease, border-color .12s ease;
+}
+.rchip:hover, .rchip:focus-visible{background:var(--board); border-color:var(--accent,var(--violet))}
+.rchip .k{font-size:.68rem; color:var(--ink3); font-family:"JetBrains Mono",monospace; font-weight:500}
 
 /* ---------- states ---------- */
 .msg{
@@ -167,6 +180,9 @@ code.stamp{font-family:"JetBrains Mono",monospace; font-size:.76rem}
   .mod::after{left:-26px}
   .card{grid-template-columns:1fr; gap:8px; padding:17px}
   .card .num{text-align:left}
+  .resbar-in{padding:8px 16px; gap:8px}
+  .resbar-label{display:none}
+  .rchip{padding:6px 11px; font-size:.8rem}
 }
 </style>
 </head>
@@ -178,6 +194,13 @@ code.stamp{font-family:"JetBrains Mono",monospace; font-size:.76rem}
     <span class="mast-inst" id="inst">Clarence Fitzroy Bryant College</span>
   </div>
 </header>
+
+<nav class="resbar hide" id="resBar" aria-label="Class resources">
+  <div class="wrap resbar-in">
+    <span class="resbar-label">Resources</span>
+    <div class="resbar-scroll" id="resBarLinks"></div>
+  </div>
+</nav>
 
 <section class="hero">
   <div class="wrap">
@@ -211,13 +234,6 @@ code.stamp{font-family:"JetBrains Mono",monospace; font-size:.76rem}
 
   <div id="board" class="bus">
     <div class="skel"></div><div class="skel"></div>
-  </div>
-  <div id="resSection" class="hide">
-    <div class="sect-head">
-      <h2>Class resources</h2>
-      <span class="count" id="resCount"></span>
-    </div>
-    <div class="res" id="resBoard"></div>
   </div>
 </main>
 
@@ -371,15 +387,12 @@ function card(t) {
 function renderResources() {
   const list = DATA.resources || [];
   if (!list.length) return;
-  document.getElementById('resSection').classList.remove('hide');
-  $('#resCount').textContent = `${list.length} link${list.length > 1 ? 's' : ''}`;
-  $('#resBoard').innerHTML = list.map(r => `
-    <a class="rcard" href="${esc(r.url)}" target="_blank" rel="noopener"
-       style="--accent:${esc(r.accent || 'var(--violet)')}">
-      ${r.kind ? `<span class="kind">${esc(r.kind)}</span>` : ''}
-      <h3>${esc(r.title)}</h3>
-      ${r.blurb ? `<p>${esc(r.blurb)}</p>` : ''}
-      ${r.host ? `<span class="host">${esc(r.host)} \u2197</span>` : ''}
+  $('#resBar').classList.remove('hide');
+  $('#resBarLinks').innerHTML = list.map(r => `
+    <a class="rchip" href="${esc(r.url)}" target="_blank" rel="noopener"
+       style="--accent:${esc(r.accent || 'var(--violet)')}"
+       title="${esc(r.blurb || r.title)}">
+      ${esc(r.title)}${r.kind ? ` <span class="k">${esc(r.kind)}</span>` : ''}
     </a>`).join('');
 }
 
