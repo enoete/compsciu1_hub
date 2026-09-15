@@ -27,7 +27,7 @@
       "host": "logic.ly"
     }
   ],
-  "generatedAt": "2026-09-15T16:40:19.401Z",
+  "generatedAt": "2026-09-15T17:05:10.158Z",
   "sourceBin": "6aa953c7ac6210605ad0a374",
   "topicCount": 3,
   "failures": 0,
@@ -87,7 +87,7 @@
         "sections": 8,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-15T16:40:18.628Z"
+      "fetchedAt": "2026-09-15T17:05:09.495Z"
     },
     {
       "id": "logic-gates",
@@ -115,7 +115,7 @@
         "image": "",
         "siteName": "CS Unit 1 · CFBC",
         "themeColor": "#E04B2F",
-        "duration": "75 min",
+        "duration": "90 min",
         "difficulty": "Core",
         "objectives": "7",
         "questions": "30",
@@ -134,13 +134,14 @@
           "Gate bench",
           "Truth table dojo",
           "Circuit builder",
+          "Logic.ly lab",
           "Spot the bug",
           "Unit test"
         ],
-        "sections": 9,
+        "sections": 10,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-15T16:40:18.718Z"
+      "fetchedAt": "2026-09-15T17:05:09.583Z"
     },
     {
       "id": "combinational",
@@ -167,7 +168,7 @@
         "image": "",
         "siteName": "CS Unit 1 · CFBC",
         "themeColor": "#5A4B9C",
-        "duration": "75 min",
+        "duration": "95 min",
         "difficulty": "Core",
         "objectives": "8",
         "questions": "30",
@@ -185,16 +186,17 @@
           "Adder bench",
           "Guest list or ban list",
           "Adder lab",
+          "Logic.ly lab",
           "Domino carry",
           "HDMI switch",
           "Microwave clock",
           "Buzzer test",
           "Unit test"
         ],
-        "sections": 8,
+        "sections": 9,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-15T16:40:18.810Z"
+      "fetchedAt": "2026-09-15T17:05:09.670Z"
     }
   ]
 }
