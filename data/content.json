@@ -27,7 +27,7 @@
       "host": "logic.ly"
     }
   ],
-  "generatedAt": "2026-09-15T16:34:15.538Z",
+  "generatedAt": "2026-09-15T16:39:38.082Z",
   "sourceBin": "6aa953c7ac6210605ad0a374",
   "topicCount": 3,
   "failures": 0,
@@ -87,7 +87,7 @@
         "sections": 8,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-15T16:34:15.105Z"
+      "fetchedAt": "2026-09-15T16:39:37.400Z"
     },
     {
       "id": "logic-gates",
@@ -140,7 +140,7 @@
         "sections": 9,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-15T16:34:15.136Z"
+      "fetchedAt": "2026-09-15T16:39:37.510Z"
     },
     {
       "id": "combinational",
@@ -194,7 +194,7 @@
         "sections": 8,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-15T16:34:15.163Z"
+      "fetchedAt": "2026-09-15T16:39:37.617Z"
     }
   ]
 }
