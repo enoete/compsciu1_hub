@@ -7,10 +7,29 @@
     "term": "Semester 1",
     "announcement": ""
   },
-  "resources": [],
-  "generatedAt": "2026-09-15T16:26:18.819Z",
+  "resources": [
+    {
+      "id": "mindmap",
+      "url": "https://www.mindmeister.com/app/map/3426288772",
+      "title": "Unit 1 mind map",
+      "blurb": "How every topic in the unit connects. Open this before an exam to see the shape of the whole syllabus rather than a list of parts.",
+      "kind": "Course map",
+      "accent": "#118D77",
+      "host": "mindmeister.com"
+    },
+    {
+      "id": "logicly",
+      "url": "https://logic.ly/",
+      "title": "Logic.ly circuit simulator",
+      "blurb": "Drag real gates onto a canvas and wire them up. Build anything from topic 2 or 3 here and watch the signals move before you commit it to paper.",
+      "kind": "Simulator",
+      "accent": "#E04B2F",
+      "host": "logic.ly"
+    }
+  ],
+  "generatedAt": "2026-09-15T16:27:11.943Z",
   "sourceBin": "6aa953c7ac6210605ad0a374",
-  "topicCount": 2,
+  "topicCount": 3,
   "failures": 0,
   "topics": [
     {
@@ -32,8 +51,8 @@
         "Units",
         "Computer types"
       ],
-      "accent": "#1FA98F",
-      "icon": "▤",
+      "accent": "#118D77",
+      "icon": "",
       "meta": {
         "title": "Storage Devices & Media",
         "description": "Where a computer keeps things, how fast it can get them back, and why that one trade-off shapes every machine you will ever use.",
@@ -68,7 +87,7 @@
         "sections": 8,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-15T16:26:18.789Z"
+      "fetchedAt": "2026-09-15T16:27:10.807Z"
     },
     {
       "id": "logic-gates",
@@ -89,7 +108,7 @@
         "Sum of products"
       ],
       "accent": "#E04B2F",
-      "icon": "⎇",
+      "icon": "",
       "meta": {
         "title": "Logic Gates & Truth Tables",
         "description": "The five-step drill for turning any truth table into a working circuit — and back again. Foundation for everything that follows.",
@@ -121,7 +140,61 @@
         "sections": 9,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-15T16:26:18.819Z"
+      "fetchedAt": "2026-09-15T16:27:10.932Z"
+    },
+    {
+      "id": "combinational",
+      "url": "https://enoete.github.io/compsciu1_3/",
+      "title": "Building Circuits That Do Things",
+      "blurb": "How a pile of switches learns to add, choose and count. Adders, multiplexers, decoders — the parts inside your phone, your microwave and the scoreboard at the park.",
+      "number": 3,
+      "status": "live",
+      "tags": [
+        "Half adder",
+        "Full adder",
+        "Ripple carry",
+        "Multiplexer",
+        "Decoder",
+        "Encoder",
+        "Seven-segment",
+        "Binary addition"
+      ],
+      "accent": "#5A4B9C",
+      "icon": "",
+      "meta": {
+        "title": "Building Circuits That Do Things",
+        "description": "How a pile of switches learns to add, choose and count. Adders, multiplexers, decoders — the parts inside your phone, your microwave and the scoreboard at the park.",
+        "image": "",
+        "siteName": "CS Unit 1 · CFBC",
+        "themeColor": "#5A4B9C",
+        "duration": "75 min",
+        "difficulty": "CAPE Core",
+        "objectives": "8",
+        "questions": "30",
+        "topics": [
+          "Half adder",
+          "Full adder",
+          "Ripple carry",
+          "Multiplexer",
+          "Decoder",
+          "Encoder",
+          "Seven-segment",
+          "Binary addition"
+        ],
+        "activities": [
+          "Adder bench",
+          "Guest list or ban list",
+          "Adder lab",
+          "Domino carry",
+          "HDMI switch",
+          "Microwave clock",
+          "Buzzer test",
+          "Unit test"
+        ],
+        "sections": 8,
+        "updated": "2026-09-15"
+      },
+      "fetchedAt": "2026-09-15T16:27:11.072Z"
     }
   ]
 }
