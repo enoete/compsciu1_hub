@@ -21,15 +21,24 @@
       "id": "logicly",
       "url": "https://logic.ly/",
       "title": "Logic.ly circuit simulator",
-      "blurb": "Drag real gates onto a canvas and wire them up. Build anything from topic 2 or 3 here and watch the signals move before you commit it to paper.",
+      "blurb": "Drag real gates and flip-flops onto a canvas and wire them up. Every lab in topic 4 is built here.",
       "kind": "Simulator",
       "accent": "#E04B2F",
       "host": "logic.ly"
+    },
+    {
+      "id": "circuitverse",
+      "url": "https://circuitverse.org",
+      "title": "CircuitVerse",
+      "blurb": "Free browser-based alternative to Logic.ly. Same labs work here, and you can share a link to your circuit.",
+      "kind": "Simulator",
+      "accent": "#5A4B9C",
+      "host": "circuitverse.org"
     }
   ],
-  "generatedAt": "2026-09-15T17:05:10.158Z",
+  "generatedAt": "2026-09-15T17:09:17.692Z",
   "sourceBin": "6aa953c7ac6210605ad0a374",
-  "topicCount": 3,
+  "topicCount": 4,
   "failures": 0,
   "topics": [
     {
@@ -87,7 +96,7 @@
         "sections": 8,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-15T17:05:09.495Z"
+      "fetchedAt": "2026-09-15T17:09:15.814Z"
     },
     {
       "id": "logic-gates",
@@ -141,7 +150,7 @@
         "sections": 10,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-15T17:05:09.583Z"
+      "fetchedAt": "2026-09-15T17:09:15.903Z"
     },
     {
       "id": "combinational",
@@ -196,7 +205,65 @@
         "sections": 9,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-15T17:05:09.670Z"
+      "fetchedAt": "2026-09-15T17:09:15.987Z"
+    },
+    {
+      "id": "flip-flops",
+      "url": "https://enoete.github.io/compsciu1_4/",
+      "title": "Circuits That Remember",
+      "blurb": "Flip-flops, latches, clocks and registers — how a handful of gates learns to hold on to something, and how to read the timing diagrams that trip everybody up.",
+      "number": 4,
+      "status": "live",
+      "tags": [
+        "Latches",
+        "SR flip-flop",
+        "D flip-flop",
+        "JK flip-flop",
+        "T flip-flop",
+        "Clock edges",
+        "Timing diagrams",
+        "Registers",
+        "Counters",
+        "Sequential circuits"
+      ],
+      "accent": "#0E7C9B",
+      "icon": "",
+      "meta": {
+        "title": "Circuits That Remember",
+        "description": "Flip-flops, latches, clocks and registers — how a handful of gates learns to hold on to something, and how to read the timing diagrams that trip everybody up.",
+        "image": "",
+        "siteName": "CS Unit 1 · CFBC",
+        "themeColor": "#0E7C9B",
+        "duration": "80 min",
+        "difficulty": "Core",
+        "objectives": "8",
+        "questions": "36",
+        "topics": [
+          "Latches",
+          "SR flip-flop",
+          "D flip-flop",
+          "JK flip-flop",
+          "T flip-flop",
+          "Clock edges",
+          "Timing diagrams",
+          "Registers",
+          "Counters",
+          "Sequential circuits"
+        ],
+        "activities": [
+          "Latch dissection",
+          "Clock bench",
+          "Four flip-flop benches",
+          "Timing diagram trainer",
+          "Register loader",
+          "Ripple counter",
+          "Lab guide",
+          "Unit test"
+        ],
+        "sections": 10,
+        "updated": "2026-09-15"
+      },
+      "fetchedAt": "2026-09-15T17:09:16.081Z"
     }
   ]
 }
