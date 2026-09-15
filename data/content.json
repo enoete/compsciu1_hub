@@ -4,23 +4,24 @@
     "title": "Computer Science",
     "subtitle": "Unit 1",
     "institution": "Clarence Fitzroy Bryant College",
+    "term": "Semester 1",
     "announcement": ""
   },
-  "generatedAt": "2026-09-15T00:00:00.000Z",
-  "sourceBin": "placeholder",
+  "generatedAt": "2026-09-15T15:32:50.793Z",
+  "sourceBin": "6aa953c7ac6210605ad0a374",
   "topicCount": 2,
-  "failures": 0,
+  "failures": 2,
   "topics": [
     {
       "id": "storage",
       "url": "https://enoete.github.io/compsciu1_1/",
-      "title": "Storage Devices & Media",
-      "blurb": "Where a computer keeps things, how fast it can get them back, and why that trade-off shapes every machine you will ever use.",
+      "title": "storage",
+      "blurb": "",
       "number": 1,
       "status": "live",
-      "tags": ["RAM", "ROM", "Cache", "Hierarchy", "Access methods", "Units"],
+      "tags": [],
       "accent": "#1FA98F",
-      "icon": "",
+      "icon": "▤",
       "meta": {
         "duration": "55 min",
         "difficulty": "Foundation",
@@ -28,18 +29,18 @@
         "questions": "25",
         "sections": "8"
       },
-      "fetchedAt": "2026-09-15T00:00:00.000Z"
+      "fetchedAt": "2026-09-15T15:32:50.696Z"
     },
     {
       "id": "logic-gates",
       "url": "https://enoete.github.io/compsciu1_2/",
-      "title": "Logic Gates & Truth Tables",
-      "blurb": "The five-step drill for turning any truth table into a working circuit — and back again. Foundation for everything that follows.",
+      "title": "logic-gates",
+      "blurb": "",
       "number": 2,
       "status": "live",
-      "tags": ["AND", "OR", "NOT", "NAND", "NOR", "XOR", "Combinational circuits"],
+      "tags": [],
       "accent": "#E04B2F",
-      "icon": "",
+      "icon": "⎇",
       "meta": {
         "duration": "75 min",
         "difficulty": "Core",
@@ -47,7 +48,7 @@
         "questions": "30",
         "sections": "9"
       },
-      "fetchedAt": "2026-09-15T00:00:00.000Z"
+      "fetchedAt": "2026-09-15T15:32:50.793Z"
     }
   ]
 }
