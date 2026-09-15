@@ -7,7 +7,7 @@
     "term": "Semester 1",
     "announcement": ""
   },
-  "generatedAt": "2026-09-15T15:35:17.353Z",
+  "generatedAt": "2026-09-15T15:39:45.293Z",
   "sourceBin": "6aa953c7ac6210605ad0a374",
   "topicCount": 2,
   "failures": 0,
@@ -67,7 +67,7 @@
         "sections": 8,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-15T15:35:17.266Z"
+      "fetchedAt": "2026-09-15T15:39:45.187Z"
     },
     {
       "id": "logic-gates",
@@ -120,7 +120,7 @@
         "sections": 9,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-15T15:35:17.353Z"
+      "fetchedAt": "2026-09-15T15:39:45.293Z"
     }
   ]
 }
