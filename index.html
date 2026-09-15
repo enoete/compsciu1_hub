@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Computer Science Unit 1 — CFBC</title>
+<meta name="description" content="Course hub for Computer Science Unit 1 at Clarence Fitzroy Bryant College.">
+<meta name="theme-color" content="#16202C">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Work+Sans:wght@400;500;600&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#EDEFF2; --board:#FFFFFF; --ink:#16202C; --ink2:#556577; --ink3:#8996A5;
+  --line:#D2D9E1; --hot:#E04B2F; --amber:#F2A93B; --violet:#5A4B9C; --mint:#1FA98F;
+  --r:14px;
+  --shadow:0 1px 0 rgba(22,32,44,.06), 0 12px 28px -18px rgba(22,32,44,.5);
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:"Work Sans",system-ui,sans-serif; font-size:17px; line-height:1.6;
+  background-image:linear-gradient(rgba(22,32,44,.035) 1px,transparent 1px),
+                   linear-gradient(90deg,rgba(22,32,44,.035) 1px,transparent 1px);
+  background-size:26px 26px;
+}
+h1,h2,h3,.disp{font-family:"Space Grotesk",system-ui,sans-serif; line-height:1.1; letter-spacing:-.02em; margin:0}
+a{color:inherit}
+.wrap{max-width:1080px; margin:0 auto; padding:0 22px}
+:focus-visible{outline:3px solid var(--violet); outline-offset:3px; border-radius:4px}
+
+/* ---------- masthead ---------- */
+.mast{padding:26px 0 0}
+.mast-row{display:flex; align-items:center; gap:14px; flex-wrap:wrap}
+.chip-code{
+  font-family:"JetBrains Mono",monospace; font-size:.78rem; font-weight:700;
+  background:var(--ink); color:#fff; padding:6px 11px; border-radius:6px;
+}
+.mast-inst{color:var(--ink2); font-size:.9rem}
+
+/* ---------- hero ---------- */
+.hero{padding:34px 0 40px}
+.hero h1{font-size:clamp(2.4rem,7vw,4.6rem); font-weight:700}
+.hero h1 .u{display:block; color:var(--hot)}
+.hero p.tag{max-width:46ch; color:var(--ink2); margin:18px 0 0; font-size:1.06rem}
+.wave{width:100%; height:64px; margin:26px 0 0; display:block; overflow:visible}
+.wave path{fill:none; stroke:var(--hot); stroke-width:3; stroke-linejoin:round; stroke-linecap:round}
+.wave .bits text{font-family:"JetBrains Mono",monospace; font-size:11px; fill:var(--ink3)}
+@media (prefers-reduced-motion:no-preference){
+  .wave path{stroke-dasharray:2600; stroke-dashoffset:2600; animation:draw 2.2s .25s cubic-bezier(.6,0,.2,1) forwards}
+  @keyframes draw{to{stroke-dashoffset:0}}
+}
+.stats{display:flex; gap:28px; flex-wrap:wrap; margin-top:8px}
+.stat b{font-family:"Space Grotesk",sans-serif; font-size:1.7rem; display:block; line-height:1}
+.stat span{font-size:.82rem; color:var(--ink2)}
+
+/* ---------- announcement ---------- */
+.announce{
+  display:none; gap:12px; align-items:flex-start;
+  background:#FFF6E6; border:1px solid #F0D9A6; border-left:5px solid var(--amber);
+  padding:14px 16px; border-radius:10px; margin:0 0 26px; font-size:.97rem;
+}
+.announce.on{display:flex}
+
+/* ---------- controls ---------- */
+.bar{display:flex; gap:10px; align-items:center; flex-wrap:wrap; margin:0 0 22px}
+.search{
+  flex:1 1 230px; min-width:180px; border:1px solid var(--line); background:var(--board);
+  border-radius:9px; padding:10px 13px; font:inherit; font-size:.95rem; color:var(--ink);
+}
+.search::placeholder{color:var(--ink3)}
+.filters{display:flex; gap:7px; flex-wrap:wrap}
+.filt{
+  border:1px solid var(--line); background:var(--board); color:var(--ink2);
+  border-radius:999px; padding:7px 14px; font:inherit; font-size:.85rem; cursor:pointer;
+}
+.filt[aria-pressed="true"]{background:var(--ink); color:#fff; border-color:var(--ink)}
+
+/* ---------- topic bus ---------- */
+.sect-head{display:flex; align-items:baseline; gap:12px; margin:44px 0 20px}
+.sect-head h2{font-size:1.5rem}
+.sect-head .count{font-family:"JetBrains Mono",monospace; font-size:.8rem; color:var(--ink3)}
+
+.bus{position:relative; padding-left:40px}
+.bus::before{
+  content:""; position:absolute; left:13px; top:8px; bottom:8px; width:2px;
+  background:repeating-linear-gradient(var(--line) 0 6px, transparent 6px 11px);
+}
+.mod{position:relative; margin:0 0 16px}
+.mod::before{ /* the tap off the bus */
+  content:""; position:absolute; left:-27px; top:30px; width:26px; height:2px; background:var(--line);
+}
+.mod::after{ /* the node */
+  content:""; position:absolute; left:-33px; top:25px; width:12px; height:12px; border-radius:50%;
+  background:var(--board); border:2px solid var(--line);
+}
+.mod.live::after{background:var(--accent,var(--hot)); border-color:var(--accent,var(--hot))}
+
+.card{
+  display:grid; grid-template-columns:54px 1fr; gap:18px; align-items:start;
+  background:var(--board); border:1px solid var(--line); border-radius:var(--r);
+  padding:20px; text-decoration:none; box-shadow:var(--shadow);
+  border-left:4px solid var(--accent,var(--line));
+  transition:transform .14s ease, box-shadow .14s ease;
+}
+a.card:hover{transform:translateY(-2px); box-shadow:0 1px 0 rgba(22,32,44,.06), 0 18px 34px -18px rgba(22,32,44,.55)}
+.card .num{
+  font-family:"JetBrains Mono",monospace; font-weight:700; font-size:1.5rem;
+  color:var(--accent,var(--ink)); text-align:center; padding-top:2px;
+}
+.card .num small{display:block; font-size:.58rem; color:var(--ink3); font-weight:500; letter-spacing:.06em}
+.card h3{font-size:1.28rem; margin:0 0 6px}
+.card p{margin:0; color:var(--ink2); font-size:.97rem}
+.facts{display:flex; gap:7px; flex-wrap:wrap; margin-top:13px}
+.fact{
+  font-size:.76rem; color:var(--ink2); background:var(--paper);
+  border:1px solid var(--line); border-radius:6px; padding:4px 9px;
+}
+.fact.k{font-family:"JetBrains Mono",monospace; color:var(--ink)}
+.tags{display:flex; gap:6px; flex-wrap:wrap; margin-top:10px}
+.tg{font-size:.73rem; color:var(--violet); background:rgba(90,75,156,.09); border-radius:5px; padding:3px 8px}
+.go{
+  margin-top:14px; display:inline-block; font-weight:600; font-size:.9rem;
+  color:var(--accent,var(--hot)); border-bottom:2px solid currentColor; padding-bottom:1px;
+}
+.mod.soon .card, .mod.locked .card{opacity:.62; cursor:default}
+.ribbon{
+  display:inline-block; font-size:.72rem; font-weight:600; letter-spacing:.03em;
+  background:var(--paper); border:1px solid var(--line); color:var(--ink2);
+  padding:3px 9px; border-radius:5px; margin-left:8px; vertical-align:middle;
+}
+
+/* ---------- states ---------- */
+.msg{
+  background:var(--board); border:1px dashed var(--line); border-radius:var(--r);
+  padding:34px; text-align:center; color:var(--ink2);
+}
+.msg b{display:block; color:var(--ink); font-family:"Space Grotesk",sans-serif; font-size:1.1rem; margin-bottom:6px}
+.skel{height:104px; background:var(--board); border:1px solid var(--line); border-radius:var(--r); margin-bottom:16px; opacity:.6}
+
+/* ---------- footer ---------- */
+footer{margin-top:64px; border-top:1px solid var(--line); padding:22px 0 46px; color:var(--ink3); font-size:.85rem}
+footer .fl{display:flex; justify-content:space-between; gap:14px; flex-wrap:wrap}
+code.stamp{font-family:"JetBrains Mono",monospace; font-size:.76rem}
+
+@media (max-width:560px){
+  body{font-size:16px}
+  .bus{padding-left:26px}
+  .bus::before{left:6px}
+  .mod::before{left:-20px; width:19px}
+  .mod::after{left:-26px}
+  .card{grid-template-columns:1fr; gap:8px; padding:17px}
+  .card .num{text-align:left}
+}
+</style>
+</head>
+<body>
+
+<header class="mast">
+  <div class="wrap mast-row">
+    <span class="chip-code" id="code">CS Unit 1</span>
+    <span class="mast-inst" id="inst">Clarence Fitzroy Bryant College</span>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <h1 id="h1">Computer<span class="u" id="h1u">Science</span></h1>
+    <p class="tag" id="tagline"></p>
+
+    <svg class="wave" viewBox="0 0 1000 64" preserveAspectRatio="none" aria-hidden="true">
+      <path id="sq"></path>
+    </svg>
+
+    <div class="stats">
+      <div class="stat"><b id="sTopics">—</b><span>topics published</span></div>
+      <div class="stat"><b id="sMins">—</b><span>minutes of material</span></div>
+      <div class="stat"><b id="sQs">—</b><span>practice questions</span></div>
+    </div>
+  </div>
+</section>
+
+<main class="wrap">
+  <div class="announce" id="announce"><span aria-hidden="true">📌</span><span id="announceText"></span></div>
+
+  <div class="sect-head">
+    <h2 id="topicsHeading">Topics</h2>
+    <span class="count" id="countLabel"></span>
+  </div>
+
+  <div class="bar">
+    <input class="search" id="q" type="search" placeholder="Search topics, e.g. truth table" aria-label="Search topics">
+    <div class="filters" id="filters"></div>
+  </div>
+
+  <div id="board" class="bus">
+    <div class="skel"></div><div class="skel"></div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap fl">
+    <span id="footLeft">Computer Science Unit 1</span>
+    <span><code class="stamp" id="stamp"></code></span>
+  </div>
+</footer>
+
+<script>
+/* ------------------------------------------------------------------ */
+/* No API keys here, and none are needed. data/content.json is built    */
+/* by the GitHub Action in scripts/sync.mjs using a secret.             */
+/* ------------------------------------------------------------------ */
+
+const $ = (s, r = document) => r.querySelector(s);
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g, c =>
+  ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+let DATA = { topics: [] }, CFG = {}, activeTag = null;
+
+/* --- draw the hero square wave from the course code's bits --- */
+(function wave() {
+  const bits = [1,0,1,1,0,0,1,0,1,1,0,1,0,0,1,1,0,1,1,0,0,1,0,1];
+  const w = 1000 / bits.length, hi = 12, lo = 50;
+  let d = `M 0 ${bits[0] ? hi : lo}`, x = 0;
+  bits.forEach((b, i) => {
+    const y = b ? hi : lo;
+    d += ` L ${x} ${y} L ${x + w} ${y}`;
+    x += w;
+  });
+  $('#sq').setAttribute('d', d);
+})();
+
+async function boot() {
+  try { CFG = await (await fetch('config.json', { cache: 'no-cache' })).json(); } catch { CFG = {}; }
+  applyConfig();
+  try {
+    const res = await fetch('data/content.json', { cache: 'no-cache' });
+    if (!res.ok) throw new Error(res.status);
+    DATA = await res.json();
+  } catch (e) {
+    $('#board').innerHTML = `<div class="msg"><b>Content hasn't been generated yet</b>
+      Run the <em>Sync course content</em> workflow in the repository's Actions tab, then refresh this page.</div>`;
+    return;
+  }
+  Object.assign(CFG, DATA.course || {});
+  applyConfig();
+  buildFilters();
+  render();
+  stats();
+  $('#stamp').textContent = DATA.generatedAt
+    ? 'content synced ' + new Date(DATA.generatedAt).toLocaleString(undefined,
+        { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' })
+    : '';
+}
+
+function applyConfig() {
+  if (CFG.accent) document.documentElement.style.setProperty('--hot', CFG.accent);
+  if (CFG.code) { $('#code').textContent = CFG.code; }
+  if (CFG.institution) $('#inst').textContent = CFG.institution;
+  if (CFG.title) $('#h1').firstChild.textContent = CFG.title;
+  if (CFG.subtitle) $('#h1u').textContent = CFG.subtitle;
+  if (CFG.tagline) $('#tagline').textContent = CFG.tagline;
+  if (CFG.labels?.topicsHeading) $('#topicsHeading').textContent = CFG.labels.topicsHeading;
+  const t = [CFG.title, CFG.subtitle].filter(Boolean).join(' ');
+  if (t) { document.title = t + ' — ' + (CFG.institution || ''); $('#footLeft').textContent = t; }
+  const ann = (CFG.announcement || '').trim();
+  if (ann) { $('#announce').classList.add('on'); $('#announceText').textContent = ann; }
+}
+
+function allTags() {
+  const set = new Set();
+  DATA.topics.forEach(t => (t.tags || []).forEach(x => set.add(x)));
+  return [...set].sort();
+}
+
+function buildFilters() {
+  const tags = allTags().slice(0, 9);
+  $('#filters').innerHTML = tags.map(t =>
+    `<button class="filt" data-tag="${esc(t)}" aria-pressed="false">${esc(t)}</button>`).join('');
+  $('#filters').addEventListener('click', e => {
+    const b = e.target.closest('.filt'); if (!b) return;
+    activeTag = activeTag === b.dataset.tag ? null : b.dataset.tag;
+    [...$('#filters').children].forEach(x =>
+      x.setAttribute('aria-pressed', String(x.dataset.tag === activeTag)));
+    render();
+  });
+}
+
+function matches(t, q) {
+  if (activeTag && !(t.tags || []).includes(activeTag)) return false;
+  if (!q) return true;
+  const hay = [t.title, t.blurb, (t.tags || []).join(' '), t.meta?.topics?.join(' ')]
+    .join(' ').toLowerCase();
+  return hay.includes(q);
+}
+
+function render() {
+  const q = $('#q').value.trim().toLowerCase();
+  const list = DATA.topics
+    .filter(t => matches(t, q))
+    .sort((a, b) => (a.number || 0) - (b.number || 0));
+
+  $('#countLabel').textContent = `${list.length} of ${DATA.topics.length}`;
+
+  if (!DATA.topics.length) {
+    $('#board').innerHTML = `<div class="msg"><b>No topics yet</b>${esc(
+      CFG.labels?.emptyState || 'Topics appear here as soon as they are added to the course bin.')}</div>`;
+    return;
+  }
+  if (!list.length) {
+    $('#board').innerHTML = `<div class="msg"><b>Nothing matches that</b>Try a different word, or clear the filter.</div>`;
+    return;
+  }
+  $('#board').innerHTML = list.map(card).join('');
+}
+
+function card(t) {
+  const m = t.meta || {};
+  const accent = t.accent || 'var(--hot)';
+  const live = (t.status || 'live') === 'live';
+  const facts = [];
+  if (m.duration) facts.push(['k', m.duration]);
+  if (m.difficulty) facts.push(['', m.difficulty]);
+  if (m.sections) facts.push(['k', m.sections + ' sections']);
+  if (m.questions) facts.push(['k', m.questions + ' questions']);
+  if (m.objectives) facts.push(['', m.objectives + ' objectives']);
+
+  const inner = `
+    <div class="num">${String(t.number).padStart(2, '0')}<small>TOPIC</small></div>
+    <div>
+      <h3>${esc(t.title)}${live ? '' : `<span class="ribbon">${t.status === 'soon' ? 'Coming soon' : 'Locked'}</span>`}</h3>
+      <p>${esc(t.blurb || 'Open the topic to see what it covers.')}</p>
+      ${facts.length ? `<div class="facts">${facts.map(([k, v]) =>
+        `<span class="fact ${k}">${esc(v)}</span>`).join('')}</div>` : ''}
+      ${(t.tags || []).length ? `<div class="tags">${t.tags.slice(0, 7).map(x =>
+        `<span class="tg">${esc(x)}</span>`).join('')}</div>` : ''}
+      ${live ? `<span class="go">Open topic</span>` : ''}
+    </div>`;
+
+  return `<div class="mod ${live ? 'live' : t.status}" style="--accent:${esc(accent)}">
+    ${live && t.url
+      ? `<a class="card" href="${esc(t.url)}" style="--accent:${esc(accent)}">${inner}</a>`
+      : `<div class="card" style="--accent:${esc(accent)}">${inner}</div>`}
+  </div>`;
+}
+
+function stats() {
+  const live = DATA.topics.filter(t => (t.status || 'live') === 'live');
+  const mins = live.reduce((s, t) =>
+    s + (parseInt(String(t.meta?.duration || '').replace(/\D/g, ''), 10) || 0), 0);
+  const qs = live.reduce((s, t) => s + (parseInt(t.meta?.questions, 10) || 0), 0);
+  $('#sTopics').textContent = live.length;
+  $('#sMins').textContent = mins || '—';
+  $('#sQs').textContent = qs || '—';
+}
+
+$('#q').addEventListener('input', render);
+boot();
+</script>
+</body>
+</html>

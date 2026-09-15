@@ -1,0 +1,15 @@
+{
+  "code": "CS Unit 1",
+  "title": "Computer Science",
+  "subtitle": "Unit 1",
+  "institution": "Clarence Fitzroy Bryant College",
+  "tagline": "Everything a computer does, it does with a switch that is either on or off. Start there.",
+  "lecturer": "Enoete Peters",
+  "accent": "#E04B2F",
+  "accentAlt": "#F2A93B",
+  "boardTint": "#5A4B9C",
+  "labels": {
+    "topicsHeading": "Topics",
+    "emptyState": "No topics published yet. They appear here as soon as they are added."
+  }
+}

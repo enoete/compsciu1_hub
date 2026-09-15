@@ -1,0 +1,53 @@
+{
+  "course": {
+    "code": "CS Unit 1",
+    "title": "Computer Science",
+    "subtitle": "Unit 1",
+    "institution": "Clarence Fitzroy Bryant College",
+    "announcement": ""
+  },
+  "generatedAt": "2026-09-15T00:00:00.000Z",
+  "sourceBin": "placeholder",
+  "topicCount": 2,
+  "failures": 0,
+  "topics": [
+    {
+      "id": "storage",
+      "url": "https://enoete.github.io/compsciu1_1/",
+      "title": "Storage Devices & Media",
+      "blurb": "Where a computer keeps things, how fast it can get them back, and why that trade-off shapes every machine you will ever use.",
+      "number": 1,
+      "status": "live",
+      "tags": ["RAM", "ROM", "Cache", "Hierarchy", "Access methods", "Units"],
+      "accent": "#1FA98F",
+      "icon": "",
+      "meta": {
+        "duration": "55 min",
+        "difficulty": "Foundation",
+        "objectives": "6",
+        "questions": "25",
+        "sections": "8"
+      },
+      "fetchedAt": "2026-09-15T00:00:00.000Z"
+    },
+    {
+      "id": "logic-gates",
+      "url": "https://enoete.github.io/compsciu1_2/",
+      "title": "Logic Gates & Truth Tables",
+      "blurb": "The five-step drill for turning any truth table into a working circuit — and back again. Foundation for everything that follows.",
+      "number": 2,
+      "status": "live",
+      "tags": ["AND", "OR", "NOT", "NAND", "NOR", "XOR", "Combinational circuits"],
+      "accent": "#E04B2F",
+      "icon": "",
+      "meta": {
+        "duration": "75 min",
+        "difficulty": "Core",
+        "objectives": "7",
+        "questions": "30",
+        "sections": "9"
+      },
+      "fetchedAt": "2026-09-15T00:00:00.000Z"
+    }
+  ]
+}
