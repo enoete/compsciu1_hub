@@ -27,7 +27,7 @@
       "host": "logic.ly"
     }
   ],
-  "generatedAt": "2026-09-15T16:39:38.082Z",
+  "generatedAt": "2026-09-15T16:40:19.401Z",
   "sourceBin": "6aa953c7ac6210605ad0a374",
   "topicCount": 3,
   "failures": 0,
@@ -87,7 +87,7 @@
         "sections": 8,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-15T16:39:37.400Z"
+      "fetchedAt": "2026-09-15T16:40:18.628Z"
     },
     {
       "id": "logic-gates",
@@ -140,7 +140,7 @@
         "sections": 9,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-15T16:39:37.510Z"
+      "fetchedAt": "2026-09-15T16:40:18.718Z"
     },
     {
       "id": "combinational",
@@ -168,7 +168,7 @@
         "siteName": "CS Unit 1 · CFBC",
         "themeColor": "#5A4B9C",
         "duration": "75 min",
-        "difficulty": "CAPE Core",
+        "difficulty": "Core",
         "objectives": "8",
         "questions": "30",
         "topics": [
@@ -194,7 +194,7 @@
         "sections": 8,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-15T16:39:37.617Z"
+      "fetchedAt": "2026-09-15T16:40:18.810Z"
     }
   ]
 }
