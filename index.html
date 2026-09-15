@@ -131,6 +131,20 @@ a.card:hover{transform:translateY(-2px); box-shadow:0 1px 0 rgba(22,32,44,.06), 
   padding:3px 9px; border-radius:5px; margin-left:8px; vertical-align:middle;
 }
 
+
+/* ---------- resources ---------- */
+.res{display:grid; grid-template-columns:repeat(auto-fill,minmax(258px,1fr)); gap:14px}
+.rcard{
+  display:block; text-decoration:none; background:var(--board); border:1px solid var(--line);
+  border-top:3px solid var(--accent,var(--violet)); border-radius:12px; padding:17px; box-shadow:var(--shadow);
+  transition:transform .14s ease, box-shadow .14s ease;
+}
+.rcard:hover{transform:translateY(-2px); box-shadow:0 1px 0 rgba(22,32,44,.06), 0 18px 34px -18px rgba(22,32,44,.55)}
+.rcard .kind{font-size:.72rem; font-weight:600; color:var(--accent,var(--violet)); letter-spacing:.01em}
+.rcard h3{font-size:1.06rem; margin:5px 0 6px}
+.rcard p{margin:0; color:var(--ink2); font-size:.92rem}
+.rcard .host{display:block; margin-top:11px; font-family:"JetBrains Mono",monospace; font-size:.74rem; color:var(--ink3)}
+
 /* ---------- states ---------- */
 .msg{
   background:var(--board); border:1px dashed var(--line); border-radius:var(--r);
@@ -141,6 +155,7 @@ a.card:hover{transform:translateY(-2px); box-shadow:0 1px 0 rgba(22,32,44,.06), 
 
 /* ---------- footer ---------- */
 footer{margin-top:64px; border-top:1px solid var(--line); padding:22px 0 46px; color:var(--ink3); font-size:.85rem}
+.hide{display:none!important}
 footer .fl{display:flex; justify-content:space-between; gap:14px; flex-wrap:wrap}
 code.stamp{font-family:"JetBrains Mono",monospace; font-size:.76rem}
 
@@ -197,6 +212,13 @@ code.stamp{font-family:"JetBrains Mono",monospace; font-size:.76rem}
   <div id="board" class="bus">
     <div class="skel"></div><div class="skel"></div>
   </div>
+  <div id="resSection" class="hide">
+    <div class="sect-head">
+      <h2>Class resources</h2>
+      <span class="count" id="resCount"></span>
+    </div>
+    <div class="res" id="resBoard"></div>
+  </div>
 </main>
 
 <footer>
@@ -247,6 +269,7 @@ async function boot() {
   applyConfig();
   buildFilters();
   render();
+  renderResources();
   stats();
   $('#stamp').textContent = DATA.generatedAt
     ? 'content synced ' + new Date(DATA.generatedAt).toLocaleString(undefined,
@@ -343,6 +366,21 @@ function card(t) {
       ? `<a class="card" href="${esc(t.url)}" style="--accent:${esc(accent)}">${inner}</a>`
       : `<div class="card" style="--accent:${esc(accent)}">${inner}</div>`}
   </div>`;
+}
+
+function renderResources() {
+  const list = DATA.resources || [];
+  if (!list.length) return;
+  document.getElementById('resSection').classList.remove('hide');
+  $('#resCount').textContent = `${list.length} link${list.length > 1 ? 's' : ''}`;
+  $('#resBoard').innerHTML = list.map(r => `
+    <a class="rcard" href="${esc(r.url)}" target="_blank" rel="noopener"
+       style="--accent:${esc(r.accent || 'var(--violet)')}">
+      ${r.kind ? `<span class="kind">${esc(r.kind)}</span>` : ''}
+      <h3>${esc(r.title)}</h3>
+      ${r.blurb ? `<p>${esc(r.blurb)}</p>` : ''}
+      ${r.host ? `<span class="host">${esc(r.host)} \u2197</span>` : ''}
+    </a>`).join('');
 }
 
 function stats() {

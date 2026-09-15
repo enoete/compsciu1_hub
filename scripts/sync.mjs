@@ -195,8 +195,34 @@ async function main() {
     });
   }
 
+  // Resources are links the bin lists directly (mind maps, simulators, past papers).
+  // We try to enrich them with page metadata, but the bin's own values always win —
+  // many third-party sites block scrapers or render their title in JavaScript.
+  const resources = [];
+  for (const [i, r] of (Array.isArray(bin.resources) ? bin.resources : []).entries()) {
+    const url = (r.url || '').trim();
+    let scraped = {};
+    if (url) {
+      const result = await scrape(url);
+      if (result.ok) scraped = result.scraped;
+      console.log(`  resource ${i + 1}: ${result.ok ? 'ok' : 'no metadata, using bin values'}`);
+    }
+    let host = '';
+    try { host = new URL(url).hostname.replace(/^www\./, ''); } catch {}
+    resources.push({
+      id: r.id || `resource-${i + 1}`,
+      url,
+      title: r.title || scraped.title || host || 'Resource',
+      blurb: r.blurb || scraped.description || '',
+      kind: r.kind || '',
+      accent: r.accent || '',
+      host,
+    });
+  }
+
   const out = {
     course: bin.course || {},
+    resources,
     generatedAt: new Date().toISOString(),
     sourceBin: BIN,
     topicCount: topics.length,
