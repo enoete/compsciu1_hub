@@ -21,7 +21,7 @@
       "id": "logicly",
       "url": "https://logic.ly/",
       "title": "Logic.ly circuit simulator",
-      "blurb": "Drag real gates and flip-flops onto a canvas and wire them up. Every lab in topic 4 is built here.",
+      "blurb": "Drag real gates and flip-flops onto a canvas and wire them up. Every build in topics 4 and 5 is made here.",
       "kind": "Simulator",
       "accent": "#E04B2F",
       "host": "logic.ly"
@@ -30,15 +30,15 @@
       "id": "circuitverse",
       "url": "https://circuitverse.org",
       "title": "CircuitVerse",
-      "blurb": "Free browser-based alternative to Logic.ly. Same labs work here, and you can share a link to your circuit.",
+      "blurb": "Free browser-based alternative to Logic.ly. The same builds work here, and you can share a link to your circuit.",
       "kind": "Simulator",
       "accent": "#5A4B9C",
       "host": "circuitverse.org"
     }
   ],
-  "generatedAt": "2026-09-16T17:01:20.297Z",
+  "generatedAt": "2026-09-16T18:16:57.887Z",
   "sourceBin": "6aa953c7ac6210605ad0a374",
-  "topicCount": 4,
+  "topicCount": 5,
   "failures": 0,
   "topics": [
     {
@@ -96,7 +96,7 @@
         "sections": 8,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-16T17:01:18.959Z"
+      "fetchedAt": "2026-09-16T18:16:56.877Z"
     },
     {
       "id": "logic-gates",
@@ -150,7 +150,7 @@
         "sections": 10,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-16T17:01:19.070Z"
+      "fetchedAt": "2026-09-16T18:16:56.930Z"
     },
     {
       "id": "combinational",
@@ -205,7 +205,7 @@
         "sections": 9,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-16T17:01:19.192Z"
+      "fetchedAt": "2026-09-16T18:16:56.961Z"
     },
     {
       "id": "flip-flops",
@@ -263,7 +263,69 @@
         "sections": 10,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-16T17:01:19.298Z"
+      "fetchedAt": "2026-09-16T18:16:57.019Z"
+    },
+    {
+      "id": "registers",
+      "url": "https://enoete.github.io/compsciu1_5/",
+      "title": "Registers: From Four Flip-Flops to a Working CPU",
+      "blurb": "SISO, SIPO, PISO and PIPO shift registers, the named registers inside a processor, and a fetch-decode-execute cycle you can step through one bus transfer at a time.",
+      "number": 5,
+      "status": "live",
+      "tags": [
+        "SISO",
+        "SIPO",
+        "PISO",
+        "PIPO",
+        "Shift registers",
+        "Universal shift register",
+        "Program counter",
+        "MAR",
+        "MDR",
+        "Instruction register",
+        "Accumulator",
+        "Fetch-decode-execute"
+      ],
+      "accent": "#C2762A",
+      "icon": "",
+      "meta": {
+        "title": "Registers: From Four Flip-Flops to a Working CPU",
+        "description": "SISO, SIPO, PISO and PIPO shift registers, the named registers inside a processor, and a fetch-decode-execute cycle you can step through one bus transfer at a time.",
+        "image": "",
+        "siteName": "CS Unit 1 · CFBC",
+        "themeColor": "#C2762A",
+        "duration": "85 min",
+        "difficulty": "Core",
+        "objectives": "9",
+        "questions": "40",
+        "topics": [
+          "SISO",
+          "SIPO",
+          "PISO",
+          "PIPO",
+          "Shift registers",
+          "Universal shift register",
+          "Program counter",
+          "MAR",
+          "MDR",
+          "Instruction register",
+          "Accumulator",
+          "Fetch-decode-execute"
+        ],
+        "activities": [
+          "Shift bench",
+          "Four-type animator",
+          "Shift trace table",
+          "Universal register",
+          "CPU register tour",
+          "Fetch-execute stepper",
+          "Four Logic.ly builds",
+          "Unit test"
+        ],
+        "sections": 9,
+        "updated": "2026-09-15"
+      },
+      "fetchedAt": "2026-09-16T18:16:57.047Z"
     }
   ]
 }
