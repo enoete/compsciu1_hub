@@ -10,12 +10,12 @@
   "resources": [
     {
       "id": "mindmap",
-      "url": "https://www.mindmeister.com/app/map/3426288772",
+      "url": "https://mm.tt/map/3426288772?t=Ts6Pq9DbqF",
       "title": "Unit 1 mind map",
       "blurb": "How every topic in the unit connects. Open this before an exam to see the shape of the whole syllabus rather than a list of parts.",
       "kind": "Course map",
       "accent": "#118D77",
-      "host": "mindmeister.com"
+      "host": "mm.tt"
     },
     {
       "id": "logicly",
@@ -36,7 +36,7 @@
       "host": "circuitverse.org"
     }
   ],
-  "generatedAt": "2026-09-16T19:01:41.703Z",
+  "generatedAt": "2026-09-16T19:10:52.255Z",
   "sourceBin": "6aa953c7ac6210605ad0a374",
   "topicCount": 6,
   "failures": 0,
@@ -96,7 +96,7 @@
         "sections": 8,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-16T19:01:39.537Z"
+      "fetchedAt": "2026-09-16T19:10:49.624Z"
     },
     {
       "id": "logic-gates",
@@ -150,7 +150,7 @@
         "sections": 10,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-16T19:01:39.676Z"
+      "fetchedAt": "2026-09-16T19:10:49.751Z"
     },
     {
       "id": "combinational",
@@ -205,7 +205,7 @@
         "sections": 9,
         "updated": "2026-09-16"
       },
-      "fetchedAt": "2026-09-16T19:01:39.759Z"
+      "fetchedAt": "2026-09-16T19:10:49.878Z"
     },
     {
       "id": "flip-flops",
@@ -263,7 +263,7 @@
         "sections": 10,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-16T19:01:39.884Z"
+      "fetchedAt": "2026-09-16T19:10:50.031Z"
     },
     {
       "id": "registers",
@@ -325,7 +325,7 @@
         "sections": 9,
         "updated": "2026-09-16"
       },
-      "fetchedAt": "2026-09-16T19:01:39.976Z"
+      "fetchedAt": "2026-09-16T19:10:50.179Z"
     },
     {
       "id": "cpu",
@@ -386,7 +386,7 @@
         "sections": 10,
         "updated": "2026-09-16"
       },
-      "fetchedAt": "2026-09-16T19:01:40.049Z"
+      "fetchedAt": "2026-09-16T19:10:50.298Z"
     }
   ]
 }
