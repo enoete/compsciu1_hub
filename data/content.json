@@ -36,7 +36,7 @@
       "host": "circuitverse.org"
     }
   ],
-  "generatedAt": "2026-09-16T18:54:50.247Z",
+  "generatedAt": "2026-09-16T19:01:41.703Z",
   "sourceBin": "6aa953c7ac6210605ad0a374",
   "topicCount": 6,
   "failures": 0,
@@ -96,7 +96,7 @@
         "sections": 8,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-16T18:54:48.773Z"
+      "fetchedAt": "2026-09-16T19:01:39.537Z"
     },
     {
       "id": "logic-gates",
@@ -150,7 +150,7 @@
         "sections": 10,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-16T18:54:48.828Z"
+      "fetchedAt": "2026-09-16T19:01:39.676Z"
     },
     {
       "id": "combinational",
@@ -205,7 +205,7 @@
         "sections": 9,
         "updated": "2026-09-16"
       },
-      "fetchedAt": "2026-09-16T18:54:48.874Z"
+      "fetchedAt": "2026-09-16T19:01:39.759Z"
     },
     {
       "id": "flip-flops",
@@ -263,7 +263,7 @@
         "sections": 10,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-16T18:54:48.948Z"
+      "fetchedAt": "2026-09-16T19:01:39.884Z"
     },
     {
       "id": "registers",
@@ -325,7 +325,7 @@
         "sections": 9,
         "updated": "2026-09-16"
       },
-      "fetchedAt": "2026-09-16T18:54:49.014Z"
+      "fetchedAt": "2026-09-16T19:01:39.976Z"
     },
     {
       "id": "cpu",
@@ -386,7 +386,7 @@
         "sections": 10,
         "updated": "2026-09-16"
       },
-      "fetchedAt": "2026-09-16T18:54:49.064Z"
+      "fetchedAt": "2026-09-16T19:01:40.049Z"
     }
   ]
 }
