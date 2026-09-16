@@ -36,7 +36,7 @@
       "host": "circuitverse.org"
     }
   ],
-  "generatedAt": "2026-09-16T18:40:52.565Z",
+  "generatedAt": "2026-09-16T18:54:50.247Z",
   "sourceBin": "6aa953c7ac6210605ad0a374",
   "topicCount": 6,
   "failures": 0,
@@ -96,7 +96,7 @@
         "sections": 8,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-16T18:40:50.364Z"
+      "fetchedAt": "2026-09-16T18:54:48.773Z"
     },
     {
       "id": "logic-gates",
@@ -150,7 +150,7 @@
         "sections": 10,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-16T18:40:50.495Z"
+      "fetchedAt": "2026-09-16T18:54:48.828Z"
     },
     {
       "id": "combinational",
@@ -177,10 +177,10 @@
         "image": "",
         "siteName": "CS Unit 1 · CFBC",
         "themeColor": "#5A4B9C",
-        "duration": "95 min",
+        "duration": "100 min",
         "difficulty": "Core",
         "objectives": "8",
-        "questions": "30",
+        "questions": "36",
         "topics": [
           "Half adder",
           "Full adder",
@@ -203,9 +203,9 @@
           "Unit test"
         ],
         "sections": 9,
-        "updated": "2026-09-15"
+        "updated": "2026-09-16"
       },
-      "fetchedAt": "2026-09-16T18:40:50.664Z"
+      "fetchedAt": "2026-09-16T18:54:48.874Z"
     },
     {
       "id": "flip-flops",
@@ -263,7 +263,7 @@
         "sections": 10,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-16T18:40:50.804Z"
+      "fetchedAt": "2026-09-16T18:54:48.948Z"
     },
     {
       "id": "registers",
@@ -325,7 +325,7 @@
         "sections": 9,
         "updated": "2026-09-16"
       },
-      "fetchedAt": "2026-09-16T18:40:50.932Z"
+      "fetchedAt": "2026-09-16T18:54:49.014Z"
     },
     {
       "id": "cpu",
@@ -386,7 +386,7 @@
         "sections": 10,
         "updated": "2026-09-16"
       },
-      "fetchedAt": "2026-09-16T18:40:51.056Z"
+      "fetchedAt": "2026-09-16T18:54:49.064Z"
     }
   ]
 }
