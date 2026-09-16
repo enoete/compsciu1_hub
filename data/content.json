@@ -36,9 +36,9 @@
       "host": "circuitverse.org"
     }
   ],
-  "generatedAt": "2026-09-16T18:36:11.063Z",
+  "generatedAt": "2026-09-16T18:40:52.565Z",
   "sourceBin": "6aa953c7ac6210605ad0a374",
-  "topicCount": 5,
+  "topicCount": 6,
   "failures": 0,
   "topics": [
     {
@@ -96,7 +96,7 @@
         "sections": 8,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-16T18:36:09.688Z"
+      "fetchedAt": "2026-09-16T18:40:50.364Z"
     },
     {
       "id": "logic-gates",
@@ -150,7 +150,7 @@
         "sections": 10,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-16T18:36:09.801Z"
+      "fetchedAt": "2026-09-16T18:40:50.495Z"
     },
     {
       "id": "combinational",
@@ -205,7 +205,7 @@
         "sections": 9,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-16T18:36:09.902Z"
+      "fetchedAt": "2026-09-16T18:40:50.664Z"
     },
     {
       "id": "flip-flops",
@@ -263,7 +263,7 @@
         "sections": 10,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-16T18:36:10.020Z"
+      "fetchedAt": "2026-09-16T18:40:50.804Z"
     },
     {
       "id": "registers",
@@ -325,7 +325,68 @@
         "sections": 9,
         "updated": "2026-09-16"
       },
-      "fetchedAt": "2026-09-16T18:36:10.110Z"
+      "fetchedAt": "2026-09-16T18:40:50.932Z"
+    },
+    {
+      "id": "cpu",
+      "url": "https://enoete.github.io/cfbcompsciu2_6/",
+      "title": "Inside the CPU",
+      "blurb": "A working datapath you can watch run: buses, control signals, the ALU opened up to the gates you built yourself, addressing modes and cache.",
+      "number": 6,
+      "status": "live",
+      "tags": [
+        "CPU",
+        "ALU",
+        "Control unit",
+        "Registers",
+        "Address bus",
+        "Data bus",
+        "Control bus",
+        "Clock speed",
+        "Cache",
+        "Addressing modes",
+        "Instruction format",
+        "Datapath"
+      ],
+      "accent": "#3B4CA8",
+      "icon": "",
+      "meta": {
+        "title": "Inside the CPU",
+        "description": "A working datapath you can watch run: buses, control signals, the ALU opened up to the gates you built yourself, addressing modes and cache.",
+        "image": "",
+        "siteName": "Computer Science · CFBC",
+        "themeColor": "#3B4CA8",
+        "duration": "90 min",
+        "difficulty": "Core",
+        "objectives": "10",
+        "questions": "40",
+        "topics": [
+          "CPU",
+          "ALU",
+          "Control unit",
+          "Registers",
+          "Address bus",
+          "Data bus",
+          "Control bus",
+          "Clock speed",
+          "Cache",
+          "Addressing modes",
+          "Instruction format",
+          "Datapath"
+        ],
+        "activities": [
+          "Live datapath",
+          "Zoom through six levels",
+          "ALU bench",
+          "Bus width calculator",
+          "Addressing mode explorer",
+          "Cache simulator",
+          "Unit test"
+        ],
+        "sections": 10,
+        "updated": "2026-09-16"
+      },
+      "fetchedAt": "2026-09-16T18:40:51.056Z"
     }
   ]
 }
