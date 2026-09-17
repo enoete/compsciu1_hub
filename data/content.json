@@ -43,9 +43,18 @@
       "kind": "Class notes",
       "accent": "#0E7C9B",
       "host": "livebinders.com"
+    },
+    {
+      "id": "onlinegdb",
+      "url": "https://www.onlinegdb.com/",
+      "title": "OnlineGDB",
+      "blurb": "Free browser-based compiler and debugger. Useful anywhere this unit shows C or pseudocode you want to actually run.",
+      "kind": "Compiler",
+      "accent": "#0F7A5A",
+      "host": "onlinegdb.com"
     }
   ],
-  "generatedAt": "2026-09-17T11:46:04.606Z",
+  "generatedAt": "2026-09-17T14:41:16.173Z",
   "sourceBin": "6aa953c7ac6210605ad0a374",
   "topicCount": 6,
   "failures": 0,
@@ -105,7 +114,7 @@
         "sections": 8,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-17T11:46:02.175Z"
+      "fetchedAt": "2026-09-17T14:41:03.927Z"
     },
     {
       "id": "logic-gates",
@@ -159,7 +168,7 @@
         "sections": 10,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-17T11:46:02.291Z"
+      "fetchedAt": "2026-09-17T14:41:04.009Z"
     },
     {
       "id": "combinational",
@@ -214,7 +223,7 @@
         "sections": 9,
         "updated": "2026-09-16"
       },
-      "fetchedAt": "2026-09-17T11:46:02.415Z"
+      "fetchedAt": "2026-09-17T14:41:04.085Z"
     },
     {
       "id": "flip-flops",
@@ -272,7 +281,7 @@
         "sections": 10,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-17T11:46:02.525Z"
+      "fetchedAt": "2026-09-17T14:41:04.150Z"
     },
     {
       "id": "registers",
@@ -334,7 +343,7 @@
         "sections": 9,
         "updated": "2026-09-16"
       },
-      "fetchedAt": "2026-09-17T11:46:02.633Z"
+      "fetchedAt": "2026-09-17T14:41:04.223Z"
     },
     {
       "id": "cpu",
@@ -395,7 +404,7 @@
         "sections": 10,
         "updated": "2026-09-16"
       },
-      "fetchedAt": "2026-09-17T11:46:02.759Z"
+      "fetchedAt": "2026-09-17T14:41:04.296Z"
     }
   ]
 }
