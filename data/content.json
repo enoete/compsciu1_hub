@@ -45,7 +45,7 @@
       "host": "livebinders.com"
     }
   ],
-  "generatedAt": "2026-09-17T04:56:15.801Z",
+  "generatedAt": "2026-09-17T11:46:04.606Z",
   "sourceBin": "6aa953c7ac6210605ad0a374",
   "topicCount": 6,
   "failures": 0,
@@ -105,7 +105,7 @@
         "sections": 8,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-17T04:56:13.547Z"
+      "fetchedAt": "2026-09-17T11:46:02.175Z"
     },
     {
       "id": "logic-gates",
@@ -159,7 +159,7 @@
         "sections": 10,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-17T04:56:13.625Z"
+      "fetchedAt": "2026-09-17T11:46:02.291Z"
     },
     {
       "id": "combinational",
@@ -214,7 +214,7 @@
         "sections": 9,
         "updated": "2026-09-16"
       },
-      "fetchedAt": "2026-09-17T04:56:13.696Z"
+      "fetchedAt": "2026-09-17T11:46:02.415Z"
     },
     {
       "id": "flip-flops",
@@ -272,7 +272,7 @@
         "sections": 10,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-17T04:56:13.768Z"
+      "fetchedAt": "2026-09-17T11:46:02.525Z"
     },
     {
       "id": "registers",
@@ -334,7 +334,7 @@
         "sections": 9,
         "updated": "2026-09-16"
       },
-      "fetchedAt": "2026-09-17T04:56:13.847Z"
+      "fetchedAt": "2026-09-17T11:46:02.633Z"
     },
     {
       "id": "cpu",
@@ -395,7 +395,7 @@
         "sections": 10,
         "updated": "2026-09-16"
       },
-      "fetchedAt": "2026-09-17T04:56:13.931Z"
+      "fetchedAt": "2026-09-17T11:46:02.759Z"
     }
   ]
 }
