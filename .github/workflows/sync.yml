@@ -38,10 +38,10 @@ jobs:
         run: |
           git config user.name  "course-hub-bot"
           git config user.email "course-hub-bot@users.noreply.github.com"
-          if git diff --quiet -- data/content.json; then
+          git add data/content.json
+          if git diff --cached --quiet; then
             echo "No content change."
           else
-            git add data/content.json
             git commit -m "chore: refresh course content [skip ci]"
             for i in 1 2 3; do
               if git push; then exit 0; fi
