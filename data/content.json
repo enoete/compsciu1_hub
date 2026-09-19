@@ -52,9 +52,27 @@
       "kind": "Compiler",
       "accent": "#0F7A5A",
       "host": "onlinegdb.com"
+    },
+    {
+      "id": "paper2guide",
+      "url": "https://enoete.github.io/compsciu1pastpapers/",
+      "title": "Paper 2 Study Guide (2017–2023)",
+      "blurb": "All six sections from the 2017, 2018, 2021, 2022 and 2023 exams, with repeat topics highlighted so you know where to focus revision.",
+      "kind": "Past papers",
+      "accent": "#A83246",
+      "host": "enoete.github.io"
+    },
+    {
+      "id": "paper1mcq",
+      "url": "https://enoete.github.io/compsciu1pastpapersmcq/",
+      "title": "Paper 1 MCQ Practice",
+      "blurb": "Multiple-choice questions drawn from past Paper 1 exams, with instant feedback on each answer.",
+      "kind": "Past papers",
+      "accent": "#8A6D1B",
+      "host": "enoete.github.io"
     }
   ],
-  "generatedAt": "2026-09-17T14:41:16.173Z",
+  "generatedAt": "2026-09-19T03:35:47.500Z",
   "sourceBin": "6aa953c7ac6210605ad0a374",
   "topicCount": 6,
   "failures": 0,
@@ -114,7 +132,7 @@
         "sections": 8,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-17T14:41:03.927Z"
+      "fetchedAt": "2026-09-19T03:35:45.524Z"
     },
     {
       "id": "logic-gates",
@@ -142,7 +160,7 @@
         "image": "",
         "siteName": "CS Unit 1 · CFBC",
         "themeColor": "#E04B2F",
-        "duration": "90 min",
+        "duration": "95 min",
         "difficulty": "Core",
         "objectives": "7",
         "questions": "30",
@@ -166,9 +184,9 @@
           "Unit test"
         ],
         "sections": 10,
-        "updated": "2026-09-15"
+        "updated": "2026-09-18"
       },
-      "fetchedAt": "2026-09-17T14:41:04.009Z"
+      "fetchedAt": "2026-09-19T03:35:45.588Z"
     },
     {
       "id": "combinational",
@@ -221,9 +239,9 @@
           "Unit test"
         ],
         "sections": 9,
-        "updated": "2026-09-16"
+        "updated": "2026-09-18"
       },
-      "fetchedAt": "2026-09-17T14:41:04.085Z"
+      "fetchedAt": "2026-09-19T03:35:45.638Z"
     },
     {
       "id": "flip-flops",
@@ -281,7 +299,7 @@
         "sections": 10,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-17T14:41:04.150Z"
+      "fetchedAt": "2026-09-19T03:35:45.671Z"
     },
     {
       "id": "registers",
@@ -343,7 +361,7 @@
         "sections": 9,
         "updated": "2026-09-16"
       },
-      "fetchedAt": "2026-09-17T14:41:04.223Z"
+      "fetchedAt": "2026-09-19T03:35:45.735Z"
     },
     {
       "id": "cpu",
@@ -404,7 +422,7 @@
         "sections": 10,
         "updated": "2026-09-16"
       },
-      "fetchedAt": "2026-09-17T14:41:04.296Z"
+      "fetchedAt": "2026-09-19T03:35:45.800Z"
     }
   ]
 }
