@@ -72,9 +72,9 @@
       "host": "enoete.github.io"
     }
   ],
-  "generatedAt": "2026-09-19T04:41:08.508Z",
+  "generatedAt": "2026-09-19T06:08:06.908Z",
   "sourceBin": "6aa953c7ac6210605ad0a374",
-  "topicCount": 6,
+  "topicCount": 7,
   "failures": 0,
   "topics": [
     {
@@ -132,7 +132,7 @@
         "sections": 8,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-19T04:41:05.651Z"
+      "fetchedAt": "2026-09-19T06:08:03.250Z"
     },
     {
       "id": "logic-gates",
@@ -186,7 +186,7 @@
         "sections": 10,
         "updated": "2026-09-18"
       },
-      "fetchedAt": "2026-09-19T04:41:05.751Z"
+      "fetchedAt": "2026-09-19T06:08:03.408Z"
     },
     {
       "id": "combinational",
@@ -241,7 +241,7 @@
         "sections": 9,
         "updated": "2026-09-18"
       },
-      "fetchedAt": "2026-09-19T04:41:05.846Z"
+      "fetchedAt": "2026-09-19T06:08:03.561Z"
     },
     {
       "id": "flip-flops",
@@ -299,7 +299,7 @@
         "sections": 10,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-19T04:41:05.951Z"
+      "fetchedAt": "2026-09-19T06:08:03.719Z"
     },
     {
       "id": "registers",
@@ -361,7 +361,7 @@
         "sections": 9,
         "updated": "2026-09-16"
       },
-      "fetchedAt": "2026-09-19T04:41:06.053Z"
+      "fetchedAt": "2026-09-19T06:08:03.914Z"
     },
     {
       "id": "cpu",
@@ -422,7 +422,51 @@
         "sections": 10,
         "updated": "2026-09-16"
       },
-      "fetchedAt": "2026-09-19T04:41:06.130Z"
+      "fetchedAt": "2026-09-19T06:08:04.050Z"
+    },
+    {
+      "id": "data-representation",
+      "url": "https://enoete.github.io/compsciu1_7/",
+      "title": "Data Representation",
+      "blurb": "The five-step drill for turning any decimal into IEEE 754 floating point — Sign, Binarize, Normalize, Exponent, Mantissa — and back again. Number systems, binary arithmetic, signed numbers and character encoding too.",
+      "number": 7,
+      "status": "live",
+      "tags": [
+        "Number systems",
+        "Base conversion",
+        "Binary arithmetic",
+        "Sign-magnitude",
+        "Two"
+      ],
+      "accent": "#B8860B",
+      "icon": "",
+      "meta": {
+        "title": "Data Representation",
+        "description": "The five-step drill for turning any decimal into IEEE 754 floating point — Sign, Binarize, Normalize, Exponent, Mantissa — and back again. Number systems, binary arithmetic, signed numbers and character encoding too.",
+        "image": "",
+        "siteName": "CS Unit 1 · CFBC",
+        "themeColor": "#B8860B",
+        "duration": "150 min",
+        "difficulty": "Core",
+        "objectives": "10",
+        "questions": "28",
+        "topics": [
+          "Number systems",
+          "Base conversion",
+          "Binary arithmetic",
+          "Sign-magnitude",
+          "Two"
+        ],
+        "activities": [
+          "Binary counter",
+          "Base conversion drill",
+          "Binary addition stepper",
+          "Two"
+        ],
+        "sections": 7,
+        "updated": "2026-09-19"
+      },
+      "fetchedAt": "2026-09-19T06:08:04.181Z"
     }
   ]
 }
