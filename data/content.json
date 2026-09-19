@@ -72,7 +72,7 @@
       "host": "enoete.github.io"
     }
   ],
-  "generatedAt": "2026-09-19T06:08:06.908Z",
+  "generatedAt": "2026-09-19T06:28:28.717Z",
   "sourceBin": "6aa953c7ac6210605ad0a374",
   "topicCount": 7,
   "failures": 0,
@@ -132,7 +132,7 @@
         "sections": 8,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-19T06:08:03.250Z"
+      "fetchedAt": "2026-09-19T06:28:25.357Z"
     },
     {
       "id": "logic-gates",
@@ -186,7 +186,7 @@
         "sections": 10,
         "updated": "2026-09-18"
       },
-      "fetchedAt": "2026-09-19T06:08:03.408Z"
+      "fetchedAt": "2026-09-19T06:28:25.470Z"
     },
     {
       "id": "combinational",
@@ -241,7 +241,7 @@
         "sections": 9,
         "updated": "2026-09-18"
       },
-      "fetchedAt": "2026-09-19T06:08:03.561Z"
+      "fetchedAt": "2026-09-19T06:28:25.563Z"
     },
     {
       "id": "flip-flops",
@@ -299,7 +299,7 @@
         "sections": 10,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-19T06:08:03.719Z"
+      "fetchedAt": "2026-09-19T06:28:25.677Z"
     },
     {
       "id": "registers",
@@ -361,7 +361,7 @@
         "sections": 9,
         "updated": "2026-09-16"
       },
-      "fetchedAt": "2026-09-19T06:08:03.914Z"
+      "fetchedAt": "2026-09-19T06:28:25.773Z"
     },
     {
       "id": "cpu",
@@ -422,7 +422,7 @@
         "sections": 10,
         "updated": "2026-09-16"
       },
-      "fetchedAt": "2026-09-19T06:08:04.050Z"
+      "fetchedAt": "2026-09-19T06:28:25.867Z"
     },
     {
       "id": "data-representation",
@@ -448,7 +448,7 @@
         "themeColor": "#B8860B",
         "duration": "150 min",
         "difficulty": "Core",
-        "objectives": "10",
+        "objectives": "11",
         "questions": "28",
         "topics": [
           "Number systems",
@@ -458,7 +458,7 @@
           "Two"
         ],
         "activities": [
-          "Binary counter",
+          "Auto-counting binary bench",
           "Base conversion drill",
           "Binary addition stepper",
           "Two"
@@ -466,7 +466,7 @@
         "sections": 7,
         "updated": "2026-09-19"
       },
-      "fetchedAt": "2026-09-19T06:08:04.181Z"
+      "fetchedAt": "2026-09-19T06:28:25.941Z"
     }
   ]
 }
