@@ -72,10 +72,10 @@
       "host": "enoete.github.io"
     }
   ],
-  "generatedAt": "2026-09-22T17:00:14.069Z",
+  "generatedAt": "2026-09-22T17:23:27.846Z",
   "sourceBin": "6aa953c7ac6210605ad0a374",
-  "topicCount": 7,
-  "failures": 0,
+  "topicCount": 8,
+  "failures": 1,
   "topics": [
     {
       "id": "storage",
@@ -132,7 +132,7 @@
         "sections": 8,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-22T17:00:09.189Z"
+      "fetchedAt": "2026-09-22T17:23:25.351Z"
     },
     {
       "id": "logic-gates",
@@ -186,7 +186,7 @@
         "sections": 10,
         "updated": "2026-09-18"
       },
-      "fetchedAt": "2026-09-22T17:00:09.467Z"
+      "fetchedAt": "2026-09-22T17:23:25.532Z"
     },
     {
       "id": "combinational",
@@ -241,7 +241,20 @@
         "sections": 9,
         "updated": "2026-09-18"
       },
-      "fetchedAt": "2026-09-22T17:00:09.737Z"
+      "fetchedAt": "2026-09-22T17:23:25.565Z"
+    },
+    {
+      "id": "seven-segment-lab",
+      "url": "https://enoete.github.io/compsciu1_3b/",
+      "title": "seven-segment-lab",
+      "blurb": "",
+      "number": 3.5,
+      "status": "live",
+      "tags": [],
+      "accent": "#DB2777",
+      "icon": "",
+      "meta": {},
+      "fetchedAt": "2026-09-22T17:23:25.597Z"
     },
     {
       "id": "flip-flops",
@@ -299,7 +312,7 @@
         "sections": 10,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-22T17:00:10.000Z"
+      "fetchedAt": "2026-09-22T17:23:25.632Z"
     },
     {
       "id": "registers",
@@ -361,7 +374,7 @@
         "sections": 9,
         "updated": "2026-09-16"
       },
-      "fetchedAt": "2026-09-22T17:00:10.283Z"
+      "fetchedAt": "2026-09-22T17:23:25.686Z"
     },
     {
       "id": "cpu",
@@ -422,7 +435,7 @@
         "sections": 10,
         "updated": "2026-09-16"
       },
-      "fetchedAt": "2026-09-22T17:00:10.568Z"
+      "fetchedAt": "2026-09-22T17:23:25.740Z"
     },
     {
       "id": "data-representation",
@@ -466,7 +479,7 @@
         "sections": 7,
         "updated": "2026-09-19"
       },
-      "fetchedAt": "2026-09-22T17:00:10.846Z"
+      "fetchedAt": "2026-09-22T17:23:25.797Z"
     }
   ]
 }
