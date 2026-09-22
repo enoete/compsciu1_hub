@@ -72,10 +72,10 @@
       "host": "enoete.github.io"
     }
   ],
-  "generatedAt": "2026-09-22T17:23:27.846Z",
+  "generatedAt": "2026-09-22T21:22:10.285Z",
   "sourceBin": "6aa953c7ac6210605ad0a374",
   "topicCount": 8,
-  "failures": 1,
+  "failures": 0,
   "topics": [
     {
       "id": "storage",
@@ -132,7 +132,7 @@
         "sections": 8,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-22T17:23:25.351Z"
+      "fetchedAt": "2026-09-22T21:22:07.173Z"
     },
     {
       "id": "logic-gates",
@@ -186,7 +186,7 @@
         "sections": 10,
         "updated": "2026-09-18"
       },
-      "fetchedAt": "2026-09-22T17:23:25.532Z"
+      "fetchedAt": "2026-09-22T21:22:07.282Z"
     },
     {
       "id": "combinational",
@@ -241,20 +241,55 @@
         "sections": 9,
         "updated": "2026-09-18"
       },
-      "fetchedAt": "2026-09-22T17:23:25.565Z"
+      "fetchedAt": "2026-09-22T21:22:07.415Z"
     },
     {
       "id": "seven-segment-lab",
       "url": "https://enoete.github.io/compsciu1_3b/",
-      "title": "seven-segment-lab",
-      "blurb": "",
+      "title": "Lab: Build the Microwave Clock",
+      "blurb": "Design a BCD to seven-segment decoder from gates. Build it on the page, watch it work, then copy it into Logic.ly.",
       "number": 3.5,
       "status": "live",
-      "tags": [],
+      "tags": [
+        "BCD to seven-segment",
+        "AND gates",
+        "NOR gates",
+        "Decoder",
+        "Debugging",
+        "Pin reduction"
+      ],
       "accent": "#DB2777",
       "icon": "",
-      "meta": {},
-      "fetchedAt": "2026-09-22T17:23:25.597Z"
+      "meta": {
+        "title": "Lab: Build the Microwave Clock",
+        "description": "Design a BCD to seven-segment decoder from gates. Build it on the page, watch it work, then copy it into Logic.ly.",
+        "image": "",
+        "siteName": "CS Unit 1 · CFBC",
+        "themeColor": "#5A4B9C",
+        "duration": "60 min",
+        "difficulty": "Core",
+        "objectives": "6",
+        "questions": "5",
+        "topics": [
+          "BCD to seven-segment",
+          "AND gates",
+          "NOR gates",
+          "Decoder",
+          "Debugging",
+          "Pin reduction"
+        ],
+        "activities": [
+          "Draw digits",
+          "Wire AND gates",
+          "Wire NOR gates",
+          "Test it here",
+          "Build in Logic.ly",
+          "Go further"
+        ],
+        "sections": 8,
+        "updated": "2026-09-22"
+      },
+      "fetchedAt": "2026-09-22T21:22:07.530Z"
     },
     {
       "id": "flip-flops",
@@ -312,7 +347,7 @@
         "sections": 10,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-22T17:23:25.632Z"
+      "fetchedAt": "2026-09-22T21:22:07.685Z"
     },
     {
       "id": "registers",
@@ -374,7 +409,7 @@
         "sections": 9,
         "updated": "2026-09-16"
       },
-      "fetchedAt": "2026-09-22T17:23:25.686Z"
+      "fetchedAt": "2026-09-22T21:22:07.788Z"
     },
     {
       "id": "cpu",
@@ -435,7 +470,7 @@
         "sections": 10,
         "updated": "2026-09-16"
       },
-      "fetchedAt": "2026-09-22T17:23:25.740Z"
+      "fetchedAt": "2026-09-22T21:22:07.896Z"
     },
     {
       "id": "data-representation",
@@ -479,7 +514,7 @@
         "sections": 7,
         "updated": "2026-09-19"
       },
-      "fetchedAt": "2026-09-22T17:23:25.797Z"
+      "fetchedAt": "2026-09-22T21:22:08.019Z"
     }
   ]
 }
