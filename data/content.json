@@ -72,7 +72,7 @@
       "host": "enoete.github.io"
     }
   ],
-  "generatedAt": "2026-09-25T11:54:25.408Z",
+  "generatedAt": "2026-09-25T12:57:03.542Z",
   "sourceBin": "6aa953c7ac6210605ad0a374",
   "topicCount": 8,
   "failures": 0,
@@ -132,7 +132,7 @@
         "sections": 8,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-25T11:54:22.424Z"
+      "fetchedAt": "2026-09-25T12:56:50.377Z"
     },
     {
       "id": "logic-gates",
@@ -186,7 +186,7 @@
         "sections": 10,
         "updated": "2026-09-18"
       },
-      "fetchedAt": "2026-09-25T11:54:22.607Z"
+      "fetchedAt": "2026-09-25T12:56:50.585Z"
     },
     {
       "id": "combinational",
@@ -241,7 +241,7 @@
         "sections": 9,
         "updated": "2026-09-18"
       },
-      "fetchedAt": "2026-09-25T11:54:22.715Z"
+      "fetchedAt": "2026-09-25T12:56:50.683Z"
     },
     {
       "id": "seven-segment-lab",
@@ -289,13 +289,13 @@
         "sections": 8,
         "updated": "2026-09-22"
       },
-      "fetchedAt": "2026-09-25T11:54:22.837Z"
+      "fetchedAt": "2026-09-25T12:56:50.725Z"
     },
     {
       "id": "flip-flops",
       "url": "https://enoete.github.io/compsciu1_4/",
       "title": "Circuits That Remember",
-      "blurb": "Flip-flops, latches, clocks and registers — how a handful of gates learns to hold on to something, and how to read the timing diagrams that trip everybody up.",
+      "blurb": "Flip-flops, latches, clocks and registers — how a handful of gates learns to hold on to something, why each of the four exists, the NOR vs NAND build, the race condition you can watch happen, and the gate-level fix inside JK.",
       "number": 4,
       "status": "live",
       "tags": [
@@ -304,6 +304,8 @@
         "D flip-flop",
         "JK flip-flop",
         "T flip-flop",
+        "NOR vs NAND latches",
+        "Race conditions",
         "Clock edges",
         "Timing diagrams",
         "Registers",
@@ -314,13 +316,13 @@
       "icon": "",
       "meta": {
         "title": "Circuits That Remember",
-        "description": "Flip-flops, latches, clocks and registers — how a handful of gates learns to hold on to something, and how to read the timing diagrams that trip everybody up.",
+        "description": "Flip-flops, latches, clocks and registers — how a handful of gates learns to hold on to something, why each of the four exists, the NOR vs NAND build, the race condition you can watch happen, and the gate-level fix inside JK.",
         "image": "",
         "siteName": "CS Unit 1 · CFBC",
         "themeColor": "#0E7C9B",
-        "duration": "80 min",
+        "duration": "90 min",
         "difficulty": "Core",
-        "objectives": "8",
+        "objectives": "11",
         "questions": "36",
         "topics": [
           "Latches",
@@ -328,6 +330,8 @@
           "D flip-flop",
           "JK flip-flop",
           "T flip-flop",
+          "NOR vs NAND latches",
+          "Race conditions",
           "Clock edges",
           "Timing diagrams",
           "Registers",
@@ -336,6 +340,10 @@
         ],
         "activities": [
           "Latch dissection",
+          "Race condition animation",
+          "Use-case cards",
+          "NOR vs NAND contrast",
+          "Inside-the-box gate diagrams",
           "Clock bench",
           "Four flip-flop benches",
           "Timing diagram trainer",
@@ -345,9 +353,9 @@
           "Unit test"
         ],
         "sections": 10,
-        "updated": "2026-09-15"
+        "updated": "2026-09-25"
       },
-      "fetchedAt": "2026-09-25T11:54:22.968Z"
+      "fetchedAt": "2026-09-25T12:56:50.777Z"
     },
     {
       "id": "registers",
@@ -409,7 +417,7 @@
         "sections": 9,
         "updated": "2026-09-16"
       },
-      "fetchedAt": "2026-09-25T11:54:23.078Z"
+      "fetchedAt": "2026-09-25T12:56:50.855Z"
     },
     {
       "id": "cpu",
@@ -470,7 +478,7 @@
         "sections": 10,
         "updated": "2026-09-16"
       },
-      "fetchedAt": "2026-09-25T11:54:23.194Z"
+      "fetchedAt": "2026-09-25T12:56:51.462Z"
     },
     {
       "id": "data-representation",
@@ -514,7 +522,7 @@
         "sections": 7,
         "updated": "2026-09-19"
       },
-      "fetchedAt": "2026-09-25T11:54:23.312Z"
+      "fetchedAt": "2026-09-25T12:56:51.532Z"
     }
   ]
 }
