@@ -72,7 +72,7 @@
       "host": "enoete.github.io"
     }
   ],
-  "generatedAt": "2026-09-29T21:29:48.795Z",
+  "generatedAt": "2026-09-29T21:30:30.192Z",
   "sourceBin": "6aa953c7ac6210605ad0a374",
   "topicCount": 8,
   "failures": 0,
@@ -132,7 +132,7 @@
         "sections": 8,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-09-29T21:29:26.520Z"
+      "fetchedAt": "2026-09-29T21:30:22.816Z"
     },
     {
       "id": "logic-gates",
@@ -186,7 +186,7 @@
         "sections": 10,
         "updated": "2026-09-18"
       },
-      "fetchedAt": "2026-09-29T21:29:26.818Z"
+      "fetchedAt": "2026-09-29T21:30:23.203Z"
     },
     {
       "id": "combinational",
@@ -241,7 +241,7 @@
         "sections": 9,
         "updated": "2026-09-18"
       },
-      "fetchedAt": "2026-09-29T21:29:26.916Z"
+      "fetchedAt": "2026-09-29T21:30:23.585Z"
     },
     {
       "id": "seven-segment-lab",
@@ -289,7 +289,7 @@
         "sections": 8,
         "updated": "2026-09-22"
       },
-      "fetchedAt": "2026-09-29T21:29:26.977Z"
+      "fetchedAt": "2026-09-29T21:30:23.844Z"
     },
     {
       "id": "flip-flops",
@@ -361,7 +361,7 @@
         "sections": 10,
         "updated": "2026-09-29"
       },
-      "fetchedAt": "2026-09-29T21:29:27.063Z"
+      "fetchedAt": "2026-09-29T21:30:24.225Z"
     },
     {
       "id": "registers",
@@ -394,7 +394,7 @@
         "themeColor": "#C2762A",
         "duration": "85 min",
         "difficulty": "Core",
-        "objectives": "9",
+        "objectives": "10",
         "questions": "40",
         "topics": [
           "SISO",
@@ -413,6 +413,7 @@
         "activities": [
           "Shift bench",
           "Four-type animator",
+          "Register wiring diagrams",
           "Shift trace table",
           "Universal register",
           "CPU register tour",
@@ -421,9 +422,9 @@
           "Unit test"
         ],
         "sections": 9,
-        "updated": "2026-09-16"
+        "updated": "2026-09-29"
       },
-      "fetchedAt": "2026-09-29T21:29:27.131Z"
+      "fetchedAt": "2026-09-29T21:30:24.618Z"
     },
     {
       "id": "cpu",
@@ -484,7 +485,7 @@
         "sections": 10,
         "updated": "2026-09-16"
       },
-      "fetchedAt": "2026-09-29T21:29:27.196Z"
+      "fetchedAt": "2026-09-29T21:30:24.857Z"
     },
     {
       "id": "data-representation",
@@ -528,7 +529,7 @@
         "sections": 7,
         "updated": "2026-09-19"
       },
-      "fetchedAt": "2026-09-29T21:29:27.281Z"
+      "fetchedAt": "2026-09-29T21:30:25.122Z"
     }
   ]
 }
