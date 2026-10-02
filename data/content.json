@@ -72,7 +72,7 @@
       "host": "enoete.github.io"
     }
   ],
-  "generatedAt": "2026-10-02T05:42:46.479Z",
+  "generatedAt": "2026-10-02T05:53:50.316Z",
   "sourceBin": "6aa953c7ac6210605ad0a374",
   "topicCount": 8,
   "failures": 0,
@@ -132,7 +132,7 @@
         "sections": 8,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-10-02T05:42:44.703Z"
+      "fetchedAt": "2026-10-02T05:53:48.050Z"
     },
     {
       "id": "logic-gates",
@@ -186,7 +186,7 @@
         "sections": 10,
         "updated": "2026-09-18"
       },
-      "fetchedAt": "2026-10-02T05:42:44.747Z"
+      "fetchedAt": "2026-10-02T05:53:48.103Z"
     },
     {
       "id": "combinational",
@@ -241,7 +241,7 @@
         "sections": 9,
         "updated": "2026-09-18"
       },
-      "fetchedAt": "2026-10-02T05:42:44.794Z"
+      "fetchedAt": "2026-10-02T05:53:48.185Z"
     },
     {
       "id": "seven-segment-lab",
@@ -289,7 +289,7 @@
         "sections": 8,
         "updated": "2026-09-22"
       },
-      "fetchedAt": "2026-10-02T05:42:44.821Z"
+      "fetchedAt": "2026-10-02T05:53:48.265Z"
     },
     {
       "id": "flip-flops",
@@ -361,7 +361,7 @@
         "sections": 10,
         "updated": "2026-09-29"
       },
-      "fetchedAt": "2026-10-02T05:42:44.844Z"
+      "fetchedAt": "2026-10-02T05:53:48.319Z"
     },
     {
       "id": "registers",
@@ -430,7 +430,7 @@
         "sections": 10,
         "updated": "2026-10-02"
       },
-      "fetchedAt": "2026-10-02T05:42:44.881Z"
+      "fetchedAt": "2026-10-02T05:53:48.373Z"
     },
     {
       "id": "cpu",
@@ -491,7 +491,7 @@
         "sections": 10,
         "updated": "2026-09-16"
       },
-      "fetchedAt": "2026-10-02T05:42:44.906Z"
+      "fetchedAt": "2026-10-02T05:53:48.442Z"
     },
     {
       "id": "data-representation",
@@ -535,7 +535,7 @@
         "sections": 7,
         "updated": "2026-09-19"
       },
-      "fetchedAt": "2026-10-02T05:42:44.966Z"
+      "fetchedAt": "2026-10-02T05:53:48.490Z"
     }
   ]
 }
