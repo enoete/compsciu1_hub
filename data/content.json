@@ -72,7 +72,7 @@
       "host": "enoete.github.io"
     }
   ],
-  "generatedAt": "2026-10-02T05:32:03.874Z",
+  "generatedAt": "2026-10-02T05:42:19.430Z",
   "sourceBin": "6aa953c7ac6210605ad0a374",
   "topicCount": 8,
   "failures": 0,
@@ -132,7 +132,7 @@
         "sections": 8,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-10-02T05:32:00.899Z"
+      "fetchedAt": "2026-10-02T05:42:17.622Z"
     },
     {
       "id": "logic-gates",
@@ -186,7 +186,7 @@
         "sections": 10,
         "updated": "2026-09-18"
       },
-      "fetchedAt": "2026-10-02T05:32:00.997Z"
+      "fetchedAt": "2026-10-02T05:42:17.692Z"
     },
     {
       "id": "combinational",
@@ -241,7 +241,7 @@
         "sections": 9,
         "updated": "2026-09-18"
       },
-      "fetchedAt": "2026-10-02T05:32:01.090Z"
+      "fetchedAt": "2026-10-02T05:42:17.738Z"
     },
     {
       "id": "seven-segment-lab",
@@ -289,7 +289,7 @@
         "sections": 8,
         "updated": "2026-09-22"
       },
-      "fetchedAt": "2026-10-02T05:32:01.327Z"
+      "fetchedAt": "2026-10-02T05:42:17.783Z"
     },
     {
       "id": "flip-flops",
@@ -361,13 +361,13 @@
         "sections": 10,
         "updated": "2026-09-29"
       },
-      "fetchedAt": "2026-10-02T05:32:01.407Z"
+      "fetchedAt": "2026-10-02T05:42:17.827Z"
     },
     {
       "id": "registers",
       "url": "https://enoete.github.io/compsciu1_5/",
       "title": "Registers: From Four Flip-Flops to a Working CPU",
-      "blurb": "SISO, SIPO, PISO and PIPO shift registers, the named registers inside a processor, and a fetch-decode-execute cycle you can step through one bus transfer at a time.",
+      "blurb": "SISO, SIPO, PISO and PIPO shift registers, synchronous and asynchronous counters, the named registers inside a processor, and a fetch-decode-execute cycle you can step through one bus transfer at a time.",
       "number": 5,
       "status": "live",
       "tags": [
@@ -377,6 +377,8 @@
         "PIPO",
         "Shift registers",
         "Universal shift register",
+        "Ripple counter",
+        "Synchronous counter",
         "Program counter",
         "MAR",
         "MDR",
@@ -388,14 +390,14 @@
       "icon": "",
       "meta": {
         "title": "Registers: From Four Flip-Flops to a Working CPU",
-        "description": "SISO, SIPO, PISO and PIPO shift registers, the named registers inside a processor, and a fetch-decode-execute cycle you can step through one bus transfer at a time.",
+        "description": "SISO, SIPO, PISO and PIPO shift registers, synchronous and asynchronous counters, the named registers inside a processor, and a fetch-decode-execute cycle you can step through one bus transfer at a time.",
         "image": "",
         "siteName": "CS Unit 1 · CFBC",
         "themeColor": "#C2762A",
-        "duration": "85 min",
+        "duration": "100 min",
         "difficulty": "Core",
-        "objectives": "10",
-        "questions": "40",
+        "objectives": "11",
+        "questions": "43",
         "topics": [
           "SISO",
           "SIPO",
@@ -403,6 +405,8 @@
           "PIPO",
           "Shift registers",
           "Universal shift register",
+          "Ripple counter",
+          "Synchronous counter",
           "Program counter",
           "MAR",
           "MDR",
@@ -416,15 +420,17 @@
           "Register wiring diagrams",
           "Shift trace table",
           "Universal register",
+          "Ripple counter stepper",
+          "Synchronous counter",
           "CPU register tour",
           "Fetch-execute stepper",
           "Four Logic.ly builds",
           "Unit test"
         ],
-        "sections": 9,
-        "updated": "2026-09-29"
+        "sections": 10,
+        "updated": "2026-10-02"
       },
-      "fetchedAt": "2026-10-02T05:32:01.497Z"
+      "fetchedAt": "2026-10-02T05:42:17.878Z"
     },
     {
       "id": "cpu",
@@ -485,7 +491,7 @@
         "sections": 10,
         "updated": "2026-09-16"
       },
-      "fetchedAt": "2026-10-02T05:32:01.578Z"
+      "fetchedAt": "2026-10-02T05:42:17.920Z"
     },
     {
       "id": "data-representation",
@@ -529,7 +535,7 @@
         "sections": 7,
         "updated": "2026-09-19"
       },
-      "fetchedAt": "2026-10-02T05:32:01.665Z"
+      "fetchedAt": "2026-10-02T05:42:17.962Z"
     }
   ]
 }
