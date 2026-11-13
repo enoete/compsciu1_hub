@@ -72,9 +72,9 @@
       "host": "enoete.github.io"
     }
   ],
-  "generatedAt": "2026-11-13T01:04:13.277Z",
+  "generatedAt": "2026-11-13T13:01:45.924Z",
   "sourceBin": "6aa953c7ac6210605ad0a374",
-  "topicCount": 8,
+  "topicCount": 9,
   "failures": 0,
   "topics": [
     {
@@ -132,7 +132,7 @@
         "sections": 8,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-11-13T01:04:09.971Z"
+      "fetchedAt": "2026-11-13T13:01:43.635Z"
     },
     {
       "id": "logic-gates",
@@ -186,7 +186,7 @@
         "sections": 10,
         "updated": "2026-09-18"
       },
-      "fetchedAt": "2026-11-13T01:04:10.107Z"
+      "fetchedAt": "2026-11-13T13:01:43.721Z"
     },
     {
       "id": "combinational",
@@ -241,7 +241,7 @@
         "sections": 9,
         "updated": "2026-09-18"
       },
-      "fetchedAt": "2026-11-13T01:04:10.328Z"
+      "fetchedAt": "2026-11-13T13:01:43.780Z"
     },
     {
       "id": "seven-segment-lab",
@@ -289,7 +289,7 @@
         "sections": 8,
         "updated": "2026-09-22"
       },
-      "fetchedAt": "2026-11-13T01:04:10.435Z"
+      "fetchedAt": "2026-11-13T13:01:43.847Z"
     },
     {
       "id": "flip-flops",
@@ -361,7 +361,7 @@
         "sections": 10,
         "updated": "2026-09-29"
       },
-      "fetchedAt": "2026-11-13T01:04:10.625Z"
+      "fetchedAt": "2026-11-13T13:01:43.917Z"
     },
     {
       "id": "registers",
@@ -430,7 +430,7 @@
         "sections": 10,
         "updated": "2026-10-02"
       },
-      "fetchedAt": "2026-11-13T01:04:10.738Z"
+      "fetchedAt": "2026-11-13T13:01:43.979Z"
     },
     {
       "id": "cpu",
@@ -491,7 +491,7 @@
         "sections": 10,
         "updated": "2026-09-16"
       },
-      "fetchedAt": "2026-11-13T01:04:10.854Z"
+      "fetchedAt": "2026-11-13T13:01:44.054Z"
     },
     {
       "id": "data-representation",
@@ -535,7 +535,34 @@
         "sections": 7,
         "updated": "2026-09-19"
       },
-      "fetchedAt": "2026-11-13T01:04:10.957Z"
+      "fetchedAt": "2026-11-13T13:01:44.099Z"
+    },
+    {
+      "id": "problem-solving",
+      "url": "https://enoete.github.io/compsciu1_9/",
+      "title": "Problem Solving with Computers - Interactive Learning",
+      "blurb": "",
+      "number": 9,
+      "status": "live",
+      "tags": [],
+      "accent": "#A8327D",
+      "icon": "",
+      "meta": {
+        "title": "Problem Solving with Computers - Interactive Learning",
+        "description": "",
+        "image": "",
+        "siteName": "",
+        "themeColor": "",
+        "duration": "",
+        "difficulty": "",
+        "objectives": "",
+        "questions": "",
+        "topics": [],
+        "activities": [],
+        "sections": 9,
+        "updated": ""
+      },
+      "fetchedAt": "2026-11-13T13:01:44.143Z"
     }
   ]
 }
