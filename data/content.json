@@ -72,7 +72,7 @@
       "host": "enoete.github.io"
     }
   ],
-  "generatedAt": "2026-11-13T13:01:45.924Z",
+  "generatedAt": "2026-11-13T13:02:41.481Z",
   "sourceBin": "6aa953c7ac6210605ad0a374",
   "topicCount": 9,
   "failures": 0,
@@ -132,7 +132,7 @@
         "sections": 8,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-11-13T13:01:43.635Z"
+      "fetchedAt": "2026-11-13T13:02:39.462Z"
     },
     {
       "id": "logic-gates",
@@ -186,7 +186,7 @@
         "sections": 10,
         "updated": "2026-09-18"
       },
-      "fetchedAt": "2026-11-13T13:01:43.721Z"
+      "fetchedAt": "2026-11-13T13:02:39.509Z"
     },
     {
       "id": "combinational",
@@ -241,7 +241,7 @@
         "sections": 9,
         "updated": "2026-09-18"
       },
-      "fetchedAt": "2026-11-13T13:01:43.780Z"
+      "fetchedAt": "2026-11-13T13:02:39.586Z"
     },
     {
       "id": "seven-segment-lab",
@@ -289,7 +289,7 @@
         "sections": 8,
         "updated": "2026-09-22"
       },
-      "fetchedAt": "2026-11-13T13:01:43.847Z"
+      "fetchedAt": "2026-11-13T13:02:39.661Z"
     },
     {
       "id": "flip-flops",
@@ -361,7 +361,7 @@
         "sections": 10,
         "updated": "2026-09-29"
       },
-      "fetchedAt": "2026-11-13T13:01:43.917Z"
+      "fetchedAt": "2026-11-13T13:02:39.709Z"
     },
     {
       "id": "registers",
@@ -430,7 +430,7 @@
         "sections": 10,
         "updated": "2026-10-02"
       },
-      "fetchedAt": "2026-11-13T13:01:43.979Z"
+      "fetchedAt": "2026-11-13T13:02:39.789Z"
     },
     {
       "id": "cpu",
@@ -491,7 +491,7 @@
         "sections": 10,
         "updated": "2026-09-16"
       },
-      "fetchedAt": "2026-11-13T13:01:44.054Z"
+      "fetchedAt": "2026-11-13T13:02:39.866Z"
     },
     {
       "id": "data-representation",
@@ -535,34 +535,66 @@
         "sections": 7,
         "updated": "2026-09-19"
       },
-      "fetchedAt": "2026-11-13T13:01:44.099Z"
+      "fetchedAt": "2026-11-13T13:02:39.954Z"
     },
     {
       "id": "problem-solving",
       "url": "https://enoete.github.io/compsciu1_9/",
-      "title": "Problem Solving with Computers - Interactive Learning",
-      "blurb": "",
+      "title": "Problem Solving with Computers",
+      "blurb": "Write pseudocode and watch it actually run. Trace tables that build themselves, a bug hunt, a flowchart builder and the five-step method for turning any problem into an algorithm.",
       "number": 9,
       "status": "live",
-      "tags": [],
+      "tags": [
+        "Problem solving",
+        "Algorithms",
+        "Pseudocode",
+        "Flowcharts",
+        "Selection",
+        "Iteration",
+        "Trace tables",
+        "Test plans",
+        "Requirements",
+        "Top-down design"
+      ],
       "accent": "#A8327D",
       "icon": "",
       "meta": {
-        "title": "Problem Solving with Computers - Interactive Learning",
-        "description": "",
+        "title": "Problem Solving with Computers",
+        "description": "Write pseudocode and watch it actually run. Trace tables that build themselves, a bug hunt, a flowchart builder and the five-step method for turning any problem into an algorithm.",
         "image": "",
-        "siteName": "",
-        "themeColor": "",
-        "duration": "",
-        "difficulty": "",
-        "objectives": "",
-        "questions": "",
-        "topics": [],
-        "activities": [],
+        "siteName": "CS Unit 1 · CFBC",
+        "themeColor": "#A8327D",
+        "duration": "95 min",
+        "difficulty": "Core",
+        "objectives": "10",
+        "questions": "40",
+        "topics": [
+          "Problem solving",
+          "Algorithms",
+          "Pseudocode",
+          "Flowcharts",
+          "Selection",
+          "Iteration",
+          "Trace tables",
+          "Test plans",
+          "Requirements",
+          "Top-down design"
+        ],
+        "activities": [
+          "Pseudocode machine",
+          "Refinement builder",
+          "Ambiguity game",
+          "Flowchart builder",
+          "Loop lab",
+          "Trace table trainer",
+          "Bug hunt",
+          "Requirements sort",
+          "Unit test"
+        ],
         "sections": 9,
-        "updated": ""
+        "updated": "2026-11-13"
       },
-      "fetchedAt": "2026-11-13T13:01:44.143Z"
+      "fetchedAt": "2026-11-13T13:02:40.001Z"
     }
   ]
 }
