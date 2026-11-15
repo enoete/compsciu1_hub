@@ -72,7 +72,7 @@
       "host": "enoete.github.io"
     }
   ],
-  "generatedAt": "2026-11-14T23:54:34.954Z",
+  "generatedAt": "2026-11-15T15:39:16.828Z",
   "sourceBin": "6aa953c7ac6210605ad0a374",
   "topicCount": 9,
   "failures": 0,
@@ -132,7 +132,7 @@
         "sections": 8,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-11-14T23:54:32.873Z"
+      "fetchedAt": "2026-11-15T15:39:13.457Z"
     },
     {
       "id": "logic-gates",
@@ -186,7 +186,7 @@
         "sections": 10,
         "updated": "2026-09-18"
       },
-      "fetchedAt": "2026-11-14T23:54:32.934Z"
+      "fetchedAt": "2026-11-15T15:39:13.573Z"
     },
     {
       "id": "combinational",
@@ -241,7 +241,7 @@
         "sections": 9,
         "updated": "2026-09-18"
       },
-      "fetchedAt": "2026-11-14T23:54:32.989Z"
+      "fetchedAt": "2026-11-15T15:39:13.721Z"
     },
     {
       "id": "seven-segment-lab",
@@ -289,7 +289,7 @@
         "sections": 8,
         "updated": "2026-09-22"
       },
-      "fetchedAt": "2026-11-14T23:54:33.043Z"
+      "fetchedAt": "2026-11-15T15:39:13.835Z"
     },
     {
       "id": "flip-flops",
@@ -361,7 +361,7 @@
         "sections": 10,
         "updated": "2026-09-29"
       },
-      "fetchedAt": "2026-11-14T23:54:33.098Z"
+      "fetchedAt": "2026-11-15T15:39:13.958Z"
     },
     {
       "id": "registers",
@@ -430,7 +430,7 @@
         "sections": 10,
         "updated": "2026-10-02"
       },
-      "fetchedAt": "2026-11-14T23:54:33.150Z"
+      "fetchedAt": "2026-11-15T15:39:14.099Z"
     },
     {
       "id": "cpu",
@@ -491,7 +491,7 @@
         "sections": 10,
         "updated": "2026-09-16"
       },
-      "fetchedAt": "2026-11-14T23:54:33.217Z"
+      "fetchedAt": "2026-11-15T15:39:14.222Z"
     },
     {
       "id": "data-representation",
@@ -535,7 +535,7 @@
         "sections": 7,
         "updated": "2026-09-19"
       },
-      "fetchedAt": "2026-11-14T23:54:33.267Z"
+      "fetchedAt": "2026-11-15T15:39:14.328Z"
     },
     {
       "id": "problem-solving",
@@ -594,7 +594,7 @@
         "sections": 9,
         "updated": "2026-11-13"
       },
-      "fetchedAt": "2026-11-14T23:54:33.327Z"
+      "fetchedAt": "2026-11-15T15:39:14.437Z"
     }
   ]
 }
