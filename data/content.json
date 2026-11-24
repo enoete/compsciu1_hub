@@ -72,9 +72,9 @@
       "host": "enoete.github.io"
     }
   ],
-  "generatedAt": "2026-11-24T04:47:39.095Z",
+  "generatedAt": "2026-11-24T16:21:22.149Z",
   "sourceBin": "6aa953c7ac6210605ad0a374",
-  "topicCount": 9,
+  "topicCount": 10,
   "failures": 0,
   "topics": [
     {
@@ -132,7 +132,7 @@
         "sections": 8,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-11-24T04:47:27.568Z"
+      "fetchedAt": "2026-11-24T16:21:19.949Z"
     },
     {
       "id": "logic-gates",
@@ -186,7 +186,7 @@
         "sections": 10,
         "updated": "2026-09-18"
       },
-      "fetchedAt": "2026-11-24T04:47:27.619Z"
+      "fetchedAt": "2026-11-24T16:21:20.023Z"
     },
     {
       "id": "combinational",
@@ -241,7 +241,7 @@
         "sections": 9,
         "updated": "2026-09-18"
       },
-      "fetchedAt": "2026-11-24T04:47:27.658Z"
+      "fetchedAt": "2026-11-24T16:21:20.088Z"
     },
     {
       "id": "seven-segment-lab",
@@ -289,7 +289,7 @@
         "sections": 8,
         "updated": "2026-09-22"
       },
-      "fetchedAt": "2026-11-24T04:47:27.719Z"
+      "fetchedAt": "2026-11-24T16:21:20.142Z"
     },
     {
       "id": "flip-flops",
@@ -361,7 +361,7 @@
         "sections": 10,
         "updated": "2026-09-29"
       },
-      "fetchedAt": "2026-11-24T04:47:27.814Z"
+      "fetchedAt": "2026-11-24T16:21:20.267Z"
     },
     {
       "id": "registers",
@@ -430,7 +430,7 @@
         "sections": 10,
         "updated": "2026-10-02"
       },
-      "fetchedAt": "2026-11-24T04:47:27.876Z"
+      "fetchedAt": "2026-11-24T16:21:20.340Z"
     },
     {
       "id": "cpu",
@@ -491,7 +491,7 @@
         "sections": 10,
         "updated": "2026-09-16"
       },
-      "fetchedAt": "2026-11-24T04:47:27.926Z"
+      "fetchedAt": "2026-11-24T16:21:20.399Z"
     },
     {
       "id": "data-representation",
@@ -535,7 +535,7 @@
         "sections": 7,
         "updated": "2026-09-19"
       },
-      "fetchedAt": "2026-11-24T04:47:27.992Z"
+      "fetchedAt": "2026-11-24T16:21:20.467Z"
     },
     {
       "id": "problem-solving",
@@ -594,7 +594,57 @@
         "sections": 9,
         "updated": "2026-11-13"
       },
-      "fetchedAt": "2026-11-24T04:47:28.046Z"
+      "fetchedAt": "2026-11-24T16:21:20.519Z"
+    },
+    {
+      "id": "problem-solving-lab",
+      "url": "https://enoete.github.io/compsciu1_9_lab/",
+      "title": "Classwork 9 — Pseudocode & Flowcharts",
+      "blurb": "A six-station working session. Read a flowchart and write the code, read the code and build the chart, trace your partner",
+      "number": 10,
+      "status": "live",
+      "tags": [
+        "Pseudocode",
+        "Flowcharts",
+        "Trace tables",
+        "Pair programming",
+        "Testing",
+        "Selection",
+        "Iteration"
+      ],
+      "accent": "#2E7D5B",
+      "icon": "",
+      "meta": {
+        "title": "Classwork 9 — Pseudocode & Flowcharts",
+        "description": "A six-station working session. Read a flowchart and write the code, read the code and build the chart, trace your partner",
+        "image": "",
+        "siteName": "CS Unit 1 · CFBC",
+        "themeColor": "#2E7D5B",
+        "duration": "80 min",
+        "difficulty": "Classwork",
+        "objectives": "6",
+        "questions": "14",
+        "topics": [
+          "Pseudocode",
+          "Flowcharts",
+          "Trace tables",
+          "Pair programming",
+          "Testing",
+          "Selection",
+          "Iteration"
+        ],
+        "activities": [
+          "Chart to code",
+          "Code to chart",
+          "Real-world briefs",
+          "Partner trace",
+          "Break it",
+          "Exam drill"
+        ],
+        "sections": 6,
+        "updated": "2026-11-24"
+      },
+      "fetchedAt": "2026-11-24T16:21:20.559Z"
     }
   ]
 }
