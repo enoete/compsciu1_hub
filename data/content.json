@@ -72,7 +72,7 @@
       "host": "enoete.github.io"
     }
   ],
-  "generatedAt": "2026-11-27T12:39:08.243Z",
+  "generatedAt": "2026-11-27T18:11:09.592Z",
   "sourceBin": "6aa953c7ac6210605ad0a374",
   "topicCount": 10,
   "failures": 0,
@@ -132,7 +132,7 @@
         "sections": 8,
         "updated": "2026-09-15"
       },
-      "fetchedAt": "2026-11-27T12:39:06.551Z"
+      "fetchedAt": "2026-11-27T18:11:07.302Z"
     },
     {
       "id": "logic-gates",
@@ -186,7 +186,7 @@
         "sections": 10,
         "updated": "2026-09-18"
       },
-      "fetchedAt": "2026-11-27T12:39:06.604Z"
+      "fetchedAt": "2026-11-27T18:11:07.369Z"
     },
     {
       "id": "combinational",
@@ -241,7 +241,7 @@
         "sections": 9,
         "updated": "2026-09-18"
       },
-      "fetchedAt": "2026-11-27T12:39:06.673Z"
+      "fetchedAt": "2026-11-27T18:11:07.428Z"
     },
     {
       "id": "seven-segment-lab",
@@ -289,7 +289,7 @@
         "sections": 8,
         "updated": "2026-09-22"
       },
-      "fetchedAt": "2026-11-27T12:39:06.731Z"
+      "fetchedAt": "2026-11-27T18:11:07.491Z"
     },
     {
       "id": "flip-flops",
@@ -361,7 +361,7 @@
         "sections": 10,
         "updated": "2026-09-29"
       },
-      "fetchedAt": "2026-11-27T12:39:06.906Z"
+      "fetchedAt": "2026-11-27T18:11:07.554Z"
     },
     {
       "id": "registers",
@@ -430,7 +430,7 @@
         "sections": 10,
         "updated": "2026-10-02"
       },
-      "fetchedAt": "2026-11-27T12:39:06.958Z"
+      "fetchedAt": "2026-11-27T18:11:07.627Z"
     },
     {
       "id": "cpu",
@@ -491,7 +491,7 @@
         "sections": 10,
         "updated": "2026-09-16"
       },
-      "fetchedAt": "2026-11-27T12:39:07.010Z"
+      "fetchedAt": "2026-11-27T18:11:07.706Z"
     },
     {
       "id": "data-representation",
@@ -535,7 +535,7 @@
         "sections": 7,
         "updated": "2026-09-19"
       },
-      "fetchedAt": "2026-11-27T12:39:07.075Z"
+      "fetchedAt": "2026-11-27T18:11:07.870Z"
     },
     {
       "id": "problem-solving",
@@ -594,7 +594,7 @@
         "sections": 9,
         "updated": "2026-11-13"
       },
-      "fetchedAt": "2026-11-27T12:39:07.150Z"
+      "fetchedAt": "2026-11-27T18:11:07.938Z"
     },
     {
       "id": "problem-solving-lab",
@@ -644,7 +644,7 @@
         "sections": 6,
         "updated": "2026-11-24"
       },
-      "fetchedAt": "2026-11-27T12:39:07.206Z"
+      "fetchedAt": "2026-11-27T18:11:08.008Z"
     }
   ]
 }
