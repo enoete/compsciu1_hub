@@ -270,6 +270,7 @@ let DATA = { topics: [] }, CFG = {}, activeTag = null;
 async function boot() {
   try { CFG = await (await fetch('config.json', { cache: 'no-cache' })).json(); } catch { CFG = {}; }
   applyConfig();
+  renderResources();
   try {
     const res = await fetch('data/content.json', { cache: 'no-cache' });
     if (!res.ok) throw new Error(res.status);
@@ -382,9 +383,16 @@ function card(t) {
   </div>`;
 }
 
+/* Pinned first chip: the live SBA tracker on the course platform (needs a
+   student sign-in there; groups and progress are stored server-side). */
+const PINNED = [{
+  url: 'https://courses.tekii.org/sba', title: 'SBA Quest', kind: 'Paper 031',
+  accent: '#2F5BFF',
+  blurb: 'Form your SBA group, pick a topic, plan milestones and self-score against the CXC mark scheme. Sign in with your school email.'
+}];
+
 function renderResources() {
-  const list = DATA.resources || [];
-  if (!list.length) return;
+  const list = [...PINNED, ...(DATA.resources || [])];
   $('#resBar').classList.remove('hide');
   $('#resBarLinks').innerHTML = list.map(r => `
     <a class="rchip" href="${esc(r.url)}" target="_blank" rel="noopener"
